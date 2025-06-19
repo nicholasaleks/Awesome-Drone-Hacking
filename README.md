@@ -101,7 +101,7 @@
 ## 🎤 Conference Talks & Videos
 - [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Felix Domke, cccamp23
 - [Debugging Microcontrollers](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Niklas Hauser, ccamp23
-- [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, Youtube
+- [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, YouTube
 - [Game of Drones](https://www.slideshare.net/slideshow/def-con-25-2017-game-of-drones-brown-latimer-29july2017-slidespdf/250332791)
 - [Parrot Drones Hijacking](https://www.youtube.com/watch?v=66z-aXy_1Yo) - RSA2018 Video, Pedro Cabrera, March 2018 (Slides)
 - [A Drone Tale, All your drones are belong to us](http://youtube.com/watch?v=aU4ULr3Lwt8) - Paolo Stagno, Hacktivity
@@ -114,7 +114,7 @@
 - [Spread Spectrum techniques for anti drone evasion](https://www.youtube.com/watch?v=8Ng91UY3D2M) - David Melendez, Gabriela Garcia, DEF CON 31, 2023
 - [Knocking my neighbors kids cruddy drone offline](https://www.youtube.com/watch?v=5CzURm7OpAA) - Michael Robinson, DEF CON 23, 2015
 - [Practical Aerial Hacking & Surveillance](https://www.youtube.com/watch?v=knrvrR-B1ZI) - Glenn Wilkinson, DEF CON 22, 2015
-- [SkyJack - autonomous drone hacking](https://www.youtube.com/watch?v=EHKV01YQX_w) - Samy Kamkar, Youtube, 2013
+- [SkyJack - autonomous drone hacking](https://www.youtube.com/watch?v=EHKV01YQX_w) - Samy Kamkar, YouTube, 2013
 - [Icarus - Hacking and hijacking DSMx drones, RC devices](https://www.youtube.com/watch?v=abl6oOxLRXs) - Jonathan Andersson, PACSEC, 2016 
 
 ## 💿 Real-Time Operating Systems
@@ -228,23 +228,22 @@
 - [Cloud Walker](https://www.cloudwalkerfpv.com/) - Optical Fiber Digital Communication Module
 
 ## 🤖 Protocols & Middleware Tools
-- [MAVLink](https://mavlink.io/en/)
-- [MAVSDK](https://mavsdk.mavlink.io/main/en/index.html)
+- [MAVLink](https://github.com/mavlink/mavlink) - Marshalling / communication library for drones.
+- [MAVSDK]https://github.com/mavlink/MAVSDK) - API and library for MAVLink compatible systems written in C++17
 - ROS
-- MAVROS
+- [MAVROS](https://github.com/mavlink/mavros) - MAVLink to ROS gateway with proxy for Ground Control Station
 - MAVLink Router
 - MAVProxy
 
 ### Protocol Analysis & Tampering
-- MAVSploit
 - [MAVLink Wireshark PLugin](https://mavlink.io/en/guide/wireshark.html) - Parsing MAVLink Messages in Wireshark
 - [aztarna](https://github.com/aliasrobotics/aztarna) - ROS Footprinting Tool
 
 ## 💽 Autopilot Firmware
-- ArduPilot
-- PX4
-- iNav
-- Betaflight
+- [ArduPilot](https://ardupilot.org/) - Trusted, versatile, and open source autopilot system supporting many vehicle types
+- [PX4](https://px4.io/) - Open Source Autopilot fro Drone Developers
+- [iNav](https://github.com/iNavFlight/inav) - Navigation-enabled flight control software
+- [Betaflight](https://github.com/betaflight/betaflight) - Open Source Flight Controller Firmware for FPV Drones
 
 ### Firmware Analysis
 - [Binwalk](https://github.com/ReFirmLabs/binwalk) - Searches a binary for "interesting" stuff, as well as extracts arbitrary files.
@@ -261,29 +260,29 @@
 
 ### Firmware Extraction
 - [DJI Firmware Tools](https://github.com/o-gs/dji-firmware-tools) - 
-- FACT Extractor - Detects container format automatically and executes the corresponding extraction tool.
-- Firmware Mod Kit - Extraction tools for several container formats.
-- The SRecord package - Collection of tools for manipulating EPROM files (can convert lots of binary formats).
-- Cotopaxi - Set of tools for security testing of Internet of Things devices using specific network IoT protocols.
-- dumpflash - Low-level NAND Flash dump and parsing utility.
-- flashrom - Tool for detecting, reading, writing, verifying and erasing flash chips.
-- Samsung Firmware Magic - Decrypt Samsung SSD firmware updates.
+- [FACT Extractor](https://github.com/fkie-cad/fact_extractor) - Detects container format automatically and executes the corresponding extraction tool.
+- [Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit) - Extraction tools for several container formats.
+- [The SRecord package](https://srecord.sourceforge.net/) - Collection of tools for manipulating EPROM files (can convert lots of binary formats).
+- [Cotopaxi](https://github.com/Samsung/cotopaxi) - Set of tools for security testing of Internet of Things devices using specific network IoT protocols.
+- [dumpflash](https://github.com/ohjeongwook/dumpflash) - Low-level NAND Flash dump and parsing utility.
+- [flashrom](https://github.com/flashrom/flashrom) - Tool for detecting, reading, writing, verifying and erasing flash chips.
+- [Samsung Firmware Magic](https://github.com/chrivers/samsung-firmware-magic) - Decrypt Samsung SSD firmware updates.
 
 ### Firmware Modification
 - [WAF](https://github.com/ArduPilot/waf) - Python-based Ardupilot Firmware Compiler
 - [DJI FC Patcher](https://github.com/o-gs/DJI_FC_Patcher) - Custom FC Patcher and Flashing for various DJI drones
 
 ## 🧠 Companion Computers
-- NMAP
+- [NMAP](https://nmap.org/) - Network Mapping Tool
 
 ## 🛫 Ground Control Stations
-- [QGround Control](https://qgroundcontrol.com/)
-- Mission Planner
-- MAVProxy
+- [QGround Control](https://github.com/mavlink/qgroundcontrol) - Cross-platform ground control station for drones
+- [Mission Planner](https://ardupilot.org/planner/) - Windows-based GCS Software
+- [MAVProxy](https://github.com/ArduPilot/MAVProxy) - CLI-based GCS Software
 
 ## 📱 Mobile GCS Apps
-- MobSF
-- ADB
+- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all-in-one mobile application hacking
+- [ADB Toolkit](https://github.com/ASHWIN990/ADB-Toolkit) - ADB-Toolkit V2 for easy ADB tricks with many perks in all one
 - Androwarn - detect and warn the user about potential malicious behaviors developed by an Android application.
 - ApkAnalyser
 - APKInspector
@@ -301,28 +300,25 @@
 - Enjarify - dex to jar converter from Google
 
 ## 🧠 Artifical Intelligence Libraries
-- OpenCV
-- TensorFlow
-- Pytorch
-- GStreamer
+- [OpenCV](https://github.com/opencv/opencv) - Open Source Computer Vision Library
 
 # 🏢 Vendor-Specific Research
 
 ## DJI
 - [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity)
-- Drone Hacks
-- No Limit Drones
+- [Drone Hacks](https://drone-hacks.com/) - DJI Drone Hacking Tool for purchase
+- [No Limit Drones](https://nolimitdronez.com/) - DJI Drone Hacking Tool for purchase
 
 ## Parrot
 - [SkyJack](https://github.com/samyk/skyjack) - Drone source used to autonomously seek out, hack, and wirelessly take full control over any other Parrot or 3DR drones
-- DroneJack
-- Maldrone
+- [DroneJack](https://github.com/brospars/wic-ter-dronejack) - Dronejack is a node web-based application to take control of a Parrot drone
+- [Maldrone](https://www.youtube.com/watch?v=5SlWdl4ZuAI) - First Backdoor for Drones
 
 ## Misc
 - [DroneSploit](https://github.com/dronesploit/dronesploit) - Drone pentesting framework console
-- Drone Duel
-- Drone-Hacking-Tool
-- Snoopy
+- [Drone Duel](https://github.com/marcnewlin/drone-duel) - Code used in the Great Drone Duel of 2016
+- [Drone-Hacking-Tool](https://github.com/HKSSY/Drone-Hacking-Tool) - Drone Hacking Tool is a GUI tool that works with a USB Wifi adapter and HackRF One for hacking drones.
+- [Snoopy](https://github.com/sensepost/Snoopy) - A distributed tracking and data interception framework
 
 
 # 📚 Research Papers & Blog Articles
