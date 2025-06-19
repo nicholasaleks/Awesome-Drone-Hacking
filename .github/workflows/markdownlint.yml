@@ -1,10 +1,8 @@
-name: GitHub Actions Lint
+name: Markdown Lint
 on: [push, pull_request]
 jobs:
-  actionlint:
+  markdownlint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: reviewdog/action-actionlint@v1
-        with:
-          reporter: github-pr-check
+      - uses: DavidAnson/markdownlint-cli2-action@v15
