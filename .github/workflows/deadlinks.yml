@@ -1,0 +1,11 @@
+name: Check Dead Links
+on: [push, pull_request]
+jobs:
+  linkchecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run link checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          args: --verbose --no-progress --exclude-mail ./README.md
