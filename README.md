@@ -31,6 +31,7 @@
 - [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops) 
 - [🎤 Conference Talks & Videos](#-conference-talks--videos)
 - [🧰 Attack Surface & Tools](#-attack-surface--tools)
+  - [💿 Real-Time Operating Systems](#-real-time-operating-systems)
   - [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
   - [📻 Radio & SiK Telemetry](#-radio--sik-telemetry)
   - [📶 Wi-Fi Communications](#-wi-fi-communications)
@@ -63,11 +64,17 @@
 - [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, Youtube
 - [Game of Drones](https://www.slideshare.net/slideshow/def-con-25-2017-game-of-drones-brown-latimer-29july2017-slidespdf/250332791)
 - [Parrot Drones Hijacking](https://www.youtube.com/watch?v=66z-aXy_1Yo) - RSA2018 Video, Pedro Cabrera, March 2018 (Slides)
-- Hacking the DJI Phantom 3, Paolo Stagno, January 25, 2017
 - [A Drone Tale, All your drones are belong to us](http://youtube.com/watch?v=aU4ULr3Lwt8) - Paolo Stagno, Hacktivity
-- PHDays VI, hacking Syma X5C quadcopter, Pavel Novikov and Artur Garipov, June 9, 2016
-- [All your bebop drones still belong to us](https://www.youtube.com/watch?v=ra0nKHvaXnc), Pedro Cabrera, Rooted CON, 2016
-- [Shelling out a "smart drone"](https://www.youtube.com/watch?v=IqCz-V6WMVg&t=2875s), Kevin Finisterre, Derbycon 2015
+- [All your bebop drones still belong to us](https://www.youtube.com/watch?v=ra0nKHvaXnc) - Pedro Cabrera, Rooted CON, 2016
+- [Shelling out a "smart drone"](https://www.youtube.com/watch?v=IqCz-V6WMVg&t=2875s) - Kevin Finisterre, Derbycon 2015
+- [Drones Hijacking - Multi dimensional attack vectors](https://www.youtube.com/watch?v=DFLofy789ko) - Aaron Luo, DEF CON 24, 2016
+- [Hacking a Professional Drone](https://www.youtube.com/watch?v=JRVb-xE1zTI&t=470s) - Nils Rodday, Black Hat, 2016
+- [Avoiding CounterDrone Systems with NanoDrones](https://www.youtube.com/watch?v=pVmFxJPOu9I) - David Melendez Cano, DEF CON 26, 2018
+- [Game of Drones](https://www.youtube.com/watch?v=iG7hUE2BZZo) - Fran Brown & David Latimer, DEF CON 25, 2017
+- [Spread Spectrum techniques for anti drone evasion](https://www.youtube.com/watch?v=8Ng91UY3D2M) - David Melendez, Gabriela Garcia, DEF CON 31, 2023
+- [Knocking my neighbors kids cruddy drone offline](https://www.youtube.com/watch?v=5CzURm7OpAA) - Michael Robinson, DEF CON 23, 2015
+- [Practical Aerial Hacking & Surveillance](https://www.youtube.com/watch?v=knrvrR-B1ZI) - Glenn Wilkinson, DEF CON 22, 2015
+- [SkyJack - autonomous drone hacking](https://www.youtube.com/watch?v=EHKV01YQX_w) - Samy Kamkar, Youtube, 2013
 
 # 🧰 Attack Surface & Tools
 
