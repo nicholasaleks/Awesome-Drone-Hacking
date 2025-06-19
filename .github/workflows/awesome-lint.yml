@@ -1,0 +1,27 @@
+name: Awesome Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    name: Run awesome-lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install awesome-lint
+        run: npm install -g awesome-lint
+
+      - name: Lint README.md
+        run: awesome-lint

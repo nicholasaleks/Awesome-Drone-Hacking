@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/badge/Tweet--lightgrey?logo=x&style=social" alt="Tweet" height="20"/>
   </a>
   <img alt="Deadlinks Checked" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/deadlinks.yml/badge.svg">
+  <img alt="Awesome Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/awesome-lint.yml/badge.svg">
   <img alt="Markdown Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/markdownlint.yml/badge.svg">
   <img alt="YAML Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/yamllint.yml/badge.svg">
   <img alt="Action Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/actionlint.yml/badge.svg">
