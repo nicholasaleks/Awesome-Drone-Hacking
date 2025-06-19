@@ -9,7 +9,7 @@
       alt="Tweet"
       height="20" />
   </a>
-  
+  <!-- markdownlint-disable MD033 -->
   <img alt="Deadlinks Checked" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/deadlinks.yml/badge.svg">
   <img alt="Awesome Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/awesome-lint.yml/badge.svg">
   <img alt="Markdown Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/markdownlint.yml/badge.svg">
@@ -25,6 +25,7 @@
   <a href="https://github.com/nicholasaleks/Awesome-Drone-Hacking/fork">
     <img src="https://img.shields.io/github/forks/nicholasaleks/Awesome-Drone-Hacking.svg?style=social" alt="Forks"/>
   </a>
+  <!-- markdownlint-enable MD033 -->
 </p>
 
 <p align="center">

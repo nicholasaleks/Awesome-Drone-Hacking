@@ -7,10 +7,10 @@ project you agree to abide by its terms.
 ## Making Changes
 
 Do you want something added? Just make a pull request or open an issue.  
-Do you want something removed? Open an issue and explain why something should be removed.
+Do you want something removed? Open an issue and explain why something
+should be removed.
 
 Thank you for your suggestions!
-
 
 ## Updating your PR
 
