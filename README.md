@@ -48,6 +48,7 @@
 - [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
 - [🎓 Training & Education](#-training--education)
 - [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
+- [🗣️ Communities](#-communities)
 - [⚖️ Legal Notice](#-legal-notice)
 
 # 🔬 Drone Hacking Labs, CTFs & Workshops
@@ -93,10 +94,13 @@
 
 ## 📻 Radio & Telemetry
 
-### Telemetry & Identification Eavesdropping & Spoofing Tools
+### Remote Identification Discovery & Spoofing Tools
+- [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
+- [WiFi RID capture](https://github.com/sxjack/unix_rid_capture)
+
+### Telemetry Detection & Eavesdropping Tools
 - [SiKW00F](https://github.com/nicholasaleks/sikw00f) - SiK Radio Detection & MAVLink Telemetry Eavesdropping Toolkit
 - [SiKening](https://github.com/MAVProxyUser/SiKening) - 3DR Radio SiKening PoC by Meatball Ninja - Brute force 3DR NetID and sync up with hopping sequence.
-- [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
 
 ## Misc RF Tools
 - [Wireshark](https://www.wireshark.org/) - Network traffic analyzer
@@ -283,6 +287,7 @@
 - [How to Set Up A Drone Vulnerability Testing Lab](https://medium.com/@swalters/how-to-set-up-a-drone-vulnerability-testing-lab-db8f7c762663)
 - [GPS Jamming Techniques for UAVs using Low-Cost SDR Platforms](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms)
 - [Unmanned Aircraft Capture and Control via GPS Spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf)
+- [Drone Detection and Tracking Using RF Identification Signals](https://www.mdpi.com/1424-8220/23/17/7650)
 
 # 🔍 OSINT & Intelligence
 - [DJI Hardware Schematics](https://github.com/o-gs/dji-hardware-schematics)
@@ -290,6 +295,7 @@
 
 # 💥 Exploits, CVEs & Vulnerabilities
 - [Exploit Database](https://www.exploit-db.com/)
+- [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD)
 
 # 📣 Vulnerability Disclosure Programs
 - [DJI Bug Bounty](https://security.dji.com)
@@ -308,6 +314,12 @@
 # 🎓 Training & Education
 - [DSOC - DronSec Courses](https://training.dronesec.com/) - Master Offensive Operations & Adversary Tradecraft for Drones.
 - [DarkWolf Drone Playbook](https://dronewolf.darkwolf.io/) - Drone Hacking Playbook Developed by Dark Wolf Solutions
+
+# 🗣️ Communities
+- [Dronecode foundation](https://dronecode.org/) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
+- [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
+- [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities, assurance, ... .
+- [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪.
 
 # ⚖️ Legal Notice
 This repository is for educational and research purposes only. Users are responsible for complying with all applicable laws and regulations. The maintainers do not endorse or encourage any illegal activities.
