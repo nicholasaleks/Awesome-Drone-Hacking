@@ -21,6 +21,9 @@
 
 <p align="center">
   <strong>A curated list of drone hacking tools & resources.</strong><br/>
+
+  <img src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true" alt="Awesome Drone Hacking List Logo"/>
+
   This repository covers tools, techniques, and research for hacking open-source, autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry and flight control to hardware, firmware, and communication protocols.
 </p>
 
@@ -75,6 +78,7 @@
 - [Knocking my neighbors kids cruddy drone offline](https://www.youtube.com/watch?v=5CzURm7OpAA) - Michael Robinson, DEF CON 23, 2015
 - [Practical Aerial Hacking & Surveillance](https://www.youtube.com/watch?v=knrvrR-B1ZI) - Glenn Wilkinson, DEF CON 22, 2015
 - [SkyJack - autonomous drone hacking](https://www.youtube.com/watch?v=EHKV01YQX_w) - Samy Kamkar, Youtube, 2013
+- [Icarus - Hacking and hijacking DSMx drones, RC devices](https://www.youtube.com/watch?v=abl6oOxLRXs) - Jonathan Andersson, PACSEC, 2016 
 
 # 🧰 Attack Surface & Tools
 
