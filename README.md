@@ -43,7 +43,7 @@
   - [📱 Mobile GCS Apps](#-mobile-gcs-apps)
   - [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
 - [🏢 Vendor-Specific Research](#-vendor-specific-research)
-- [📚 Research Papers, Blogs & Technical Talks](#-research-papers-blogs--technical-talks)
+- [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
 - [🔍 OSINT & Intelligence](#-osint--intelligence)
 - [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
 - [🎓 Training & Education](#-training--education)
@@ -61,7 +61,13 @@
 - [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Felix Domke, cccamp23
 - [Debugging Microcontrollers](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Niklas Hauser, ccamp23
 - [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, Youtube
-- 
+- [Game of Drones](https://www.slideshare.net/slideshow/def-con-25-2017-game-of-drones-brown-latimer-29july2017-slidespdf/250332791)
+- [Parrot Drones Hijacking](https://www.youtube.com/watch?v=66z-aXy_1Yo) - RSA2018 Video, Pedro Cabrera, March 2018 (Slides)
+- Hacking the DJI Phantom 3, Paolo Stagno, January 25, 2017
+- [A Drone Tale, All your drones are belong to us](http://youtube.com/watch?v=aU4ULr3Lwt8) - Paolo Stagno, Hacktivity
+- PHDays VI, hacking Syma X5C quadcopter, Pavel Novikov and Artur Garipov, June 9, 2016
+- [All your bebop drones still belong to us](https://www.youtube.com/watch?v=ra0nKHvaXnc), Pedro Cabrera, Rooted CON, 2016
+- [Shelling out a "smart drone"](https://www.youtube.com/watch?v=IqCz-V6WMVg&t=2875s), Kevin Finisterre, Derbycon 2015
 
 # 🧰 Attack Surface & Tools
 
@@ -72,25 +78,25 @@
 ## 🔌 Flight Controller & Embedded Systems
 
 ### Embedding Hacking Tools
-- Bus Blaster - Detects and interacts with hardware debug ports like UART and JTAG.
-- Bus Pirate - Detects and interacts with hardware debug ports like UART and JTAG.
-- Shikra - Detects and interacts with hardware debug ports like UART and JTAG. Among other protocols.
-- JTAGULATOR - Detects JTAG Pinouts fast.
-- Saleae - Easy to use Logic Analyzer that support many protocols 💶.
-- Ikalogic - Alternative to Saleae logic analyzers 💶.
-- HydraBus - Open source multi-tool hardware similar to the BusPirate but with NFC capabilities.
-- ChipWhisperer - Detects Glitch/Side-channel attacks.
-- Glasgow - Tool for exploring and debugging different digital interfaces.
-- J-Link - J-Link offers USB powered JTAG debug probes for multiple different CPU cores 💶.
+- [Bus Blaster](http://dangerousprototypes.com/docs/Bus_Blaster) - Detects and interacts with hardware debug ports like UART and JTAG.
+- [Bus Pirate](http://dangerousprototypes.com/docs/Bus_Pirate) - Detects and interacts with hardware debug ports like UART and JTAG.
+- [Tigard](https://www.crowdsupply.com/securinghw/tigard) - An open source FT2232H-based, multi-protocol, multi-voltage tool for hardware hacking
+- [JTAGULATOR](https://grandideastudio.com/portfolio/security/jtagulator/) - Detects JTAG Pinouts fast.
+- [Saleae](https://www.saleae.com/) - Easy to use Logic Analyzer that support many protocols 💶.
+- [Ikalogic](https://www.ikalogic.com/sp209-logic-analyzer/) - Alternative to Saleae logic analyzers 💶.
+- [HydraBus](https://hydrabus.com/hydrabus-1-0-specifications/?v=0b3b97fa6688) - Open source multi-tool hardware similar to the BusPirate but with NFC capabilities.
+- [ChipWhisperer](https://www.newae.com/chipwhisperer) - Detects Glitch/Side-channel attacks.
+- [Glasgow](https://github.com/GlasgowEmbedded/Glasgow) - Tool for exploring and debugging different digital interfaces.
+- [J-Link](https://www.segger.com/products/debug-probes/j-link/) - J-Link offers USB powered JTAG debug probes for multiple different CPU cores 💶.
 
-### Common Flight Controller & Embedded Systems
-- STM32
-- AT32
-- Pixhawk / Cube
-- DJI A3 / N3
-- CUAV X7 & V5+
-- Holybro Kakute F7/H7
-- PX4 Wiring Diagram
+### Common Flight Controller & Embedded System Resources
+- [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) - 32-bit Arm Cortex MCUs
+- [AT32](https://www.arterychip.com/en/product/AT32F425.jsp) - 32-bit Cortex-M4 microcontroller MUCs
+- [Pixhawk](https://pixhawk.org/) / [Cube](https://www.cubepilot.com/#/home)
+- DJI [A3](https://www.dji.com/ca/a3) / [N3](https://www.dji.com/ca/n3)
+- [CUAV X7 & V5+](https://ardupilot.org/copter/docs/common-cuav-x7-family-overview.html)
+- [Holybro Kakute F7/H7](https://holybro.com/products/kakute-h7-v2?srsltid=AfmBOorAjpi2nnbfkXOsFjFxvt8UiLFDPlo7vlpXIBhJMvUBZDkQ2fqW)
+- [PX4 Wiring Diagram](https://docs.px4.io/main/en/assembly/quick_start_pixhawk5x.html)
 
 ## 📻 Radio & Telemetry
 
@@ -108,7 +114,7 @@
 - [GQRX](https://github.com/gqrx-sdr/gqrx) - Software defined radio receiver powered by GNU Radio and Qt
 - [SDR# (SDRSharp)](https://airspy.com/download/) - Airspy is a popular, affordable SDR (software defined radio
 - [UberTooth One](https://github.com/greatscottgadgets/ubertooth) - Open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation.
-- Bluefruit LE Sniffer - Easy to use Bluetooth Low Energy sniffer.
+- [Bluefruit LE Sniffer](https://www.adafruit.com/product/2269) - Easy to use Bluetooth Low Energy sniffer.
 - DragonOS: Ubuntu-based SDR distribution with preinstalled cellular tools
 - RTL-SDR - Cheapest SDR for beginners. It is a computer based radio scanner for receiving live radio signals frequencies from 500 kHz up to 1.75 GHz.
 - [HackRF One](https://github.com/greatscottgadgets/hackrf) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz (half-duplex).
@@ -254,14 +260,6 @@
 - Pytorch
 - GStreamer
 
-# 🎤 Conference Talks
-- [Parrot Drones Hijacking](https://www.youtube.com/watch?v=66z-aXy_1Yo) - RSA2018 Video, Pedro Cabrera, March 2018 (Slides)
-- Hacking the DJI Phantom 3, Paolo Stagno, January 25, 2017
-- [A Drone Tale, All your drones are belong to us](http://youtube.com/watch?v=aU4ULr3Lwt8) - Paolo Stagno, Hacktivity
-- PHDays VI, hacking Syma X5C quadcopter, Pavel Novikov and Artur Garipov, June 9, 2016
-- [All your bebop drones still belong to us](https://www.youtube.com/watch?v=ra0nKHvaXnc), Pedro Cabrera, Rooted CON, 2016
-- [Shelling out a "smart drone"](https://www.youtube.com/watch?v=IqCz-V6WMVg&t=2875s), Kevin Finisterre, Derbycon 2015
-
 # 🏢 Vendor-Specific Research
 
 ## DJI
@@ -281,7 +279,7 @@
 - Snoopy
 
 
-# 📚 Research Papers & Blogs
+# 📚 Research Papers & Blog Articles
 - [Vulnerability Analysis of the MAVLink Protocol for Command and Control of Unmanned Aircraft](https://apps.dtic.mil/sti/citations/ADA598977)
 - [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file)
 - [How to Set Up A Drone Vulnerability Testing Lab](https://medium.com/@swalters/how-to-set-up-a-drone-vulnerability-testing-lab-db8f7c762663)
@@ -320,6 +318,9 @@
 - [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
 - [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities, assurance, ... .
 - [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪.
+
+# Additional Resources
+- [Awesome-Flying-FPV](https://github.com/Matthias84/awesome-flying-fpv)
 
 # ⚖️ Legal Notice
 This repository is for educational and research purposes only. Users are responsible for complying with all applicable laws and regulations. The maintainers do not endorse or encourage any illegal activities.
