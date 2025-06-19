@@ -36,8 +36,8 @@
 
 <!-- toc -->
 
-  * [🔬 Drone Hacking Labs, CTFs & Workshops](#%F0%9F%94%AC-drone-hacking-labs-ctfs--workshops)
-  * [🎤 Conference Talks & Videos](#%F0%9F%8E%A4-conference-talks--videos)
+  * [🔬 Drone Hacking Labs, CTFs & Workshops](#--drone-hacking-labs-ctfs--workshops)
+  * [🎤 Conference Talks & Videos](#-conference-talks--videos)
   * [💿 Real-Time Operating Systems](#%F0%9F%92%BF-real-time-operating-systems)
   * [🔌 Flight Controller & Embedded Systems](#%F0%9F%94%8C-flight-controller--embedded-systems)
     + [Embedding Hacking Tools](#embedding-hacking-tools)
