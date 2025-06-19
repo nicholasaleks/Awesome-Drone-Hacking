@@ -28,13 +28,19 @@
   <!-- markdownlint-enable MD033 -->
 </p>
 
+<!-- markdownlint-disable MD033 -->
 <p align="center">
   <strong>A list of awesome drone hacking tools & resources.</strong><br/>
 
-  <img src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true" alt="Awesome Drone Hacking List Logo"/>
+  <img
+   src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true"
+   alt="Awesome Drone Hacking List Logo" />
 
-  This repository covers tools, techniques, and research for hacking open-source, autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry and flight control to hardware, firmware, and communication protocols.
+  This repository covers tools, techniques, and research for hacking open-source,
+  autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry
+  and flight control to hardware, firmware, and communication protocols.
 </p>
+<!-- markdownlint-enable MD033 -->
 
 ---
 
