@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <strong>A curated list of offensive drone security resources for researchers, pentesters, and hackers.</strong><br/>
+  <strong>A curated list of drone hacking tools & resources.</strong><br/>
   This repository covers tools, techniques, and research for hacking open-source, autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry and flight control to hardware, firmware, and communication protocols.
 </p>
 
