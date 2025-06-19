@@ -29,6 +29,7 @@
 # 📚 Table of Contents
 
 - [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops) 
+- [🎤 Conference Talks & Videos](#-conference-talks--videos)
 - [🧰 Attack Surface & Tools](#-attack-surface--tools)
   - [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
   - [📻 Radio & SiK Telemetry](#-radio--sik-telemetry)
@@ -41,7 +42,6 @@
   - [🛫 Ground Control Stations](#-ground-control-stations)
   - [📱 Mobile GCS Apps](#-mobile-gcs-apps)
   - [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
-- [🎤 Conference Talks](#-conference-talks)
 - [🏢 Vendor-Specific Research](#-vendor-specific-research)
 - [📚 Research Papers, Blogs & Technical Talks](#-research-papers-blogs--technical-talks)
 - [🔍 OSINT & Intelligence](#-osint--intelligence)
@@ -56,8 +56,11 @@
 - [Drone Wars, BloomCon](https://www.commonwealthu.edu/offices-directory/mathematics-computer-science-and-digital-forensics/drone-wars-competition) - Collegiate arena where teams hijack Wi‑Fi drones and race them through obstacles.
 - [Hack The Drone](http://hackthedrone.org/eng/index.php) - International Drone Hacking Competition, Korea Drone Security Association
 
-# 🎤 Conference Talks
-
+# 🎤 Conference Talks & Videos
+- [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Felix Domke, cccamp23
+- [Debugging Microcontrollers](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Niklas Hauser, ccamp23
+- [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, Youtube
+- 
 
 # 🧰 Attack Surface & Tools
 
@@ -66,13 +69,6 @@
 - [ChibiOS](https://www.chibios.org/dokuwiki/doku.php)
 
 ## 🔌 Flight Controller & Embedded Systems
-- STM32
-- AT32
-- Pixhawk / Cube
-- DJI A3 / N3
-- CUAV X7 & V5+
-- Holybro Kakute F7/H7
-- PX4 Wiring Diagram
 
 ### Embedding Hacking Tools
 - Bus Blaster - Detects and interacts with hardware debug ports like UART and JTAG.
@@ -86,18 +82,23 @@
 - Glasgow - Tool for exploring and debugging different digital interfaces.
 - J-Link - J-Link offers USB powered JTAG debug probes for multiple different CPU cores 💶.
 
-## 📻 Radio & Telemetry
-- RFD900X / RFD868X
-- 3DR SiK Radio
-- mRo SiK Radios
-- Holybro Sik Radios
-- [Microhard Telemetry Radios](https://docs.px4.io/main/en/telemetry/microhard_serial.html) - 
-- [ExpressLRS](https://www.expresslrs.org/) - Open-source RC link that now supports bidirectional MAVLink passthrough with sub-10 ms latency—favoured by FPV pilots and DIY UAVs.
-- TBS Crossfire
+### Common Flight Controller & Embedded Systems
+- STM32
+- AT32
+- Pixhawk / Cube
+- DJI A3 / N3
+- CUAV X7 & V5+
+- Holybro Kakute F7/H7
+- PX4 Wiring Diagram
 
-### RF & Telemetry Eavesdropping
+## 📻 Radio & Telemetry
+
+### Telemetry & Identification Eavesdropping & Spoofing Tools
 - [SiKW00F](https://github.com/nicholasaleks/sikw00f) - SiK Radio Detection & MAVLink Telemetry Eavesdropping Toolkit
 - [SiKening](https://github.com/MAVProxyUser/SiKening) - 3DR Radio SiKening PoC by Meatball Ninja - Brute force 3DR NetID and sync up with hopping sequence.
+- [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
+
+## Misc RF Tools
 - [Wireshark](https://www.wireshark.org/) - Network traffic analyzer
 - [GNURadio](https://github.com/gnuradio/gnuradio) - Free and Open Software Radio Ecosystem
 - [GQRX](https://github.com/gqrx-sdr/gqrx) - Software defined radio receiver powered by GNU Radio and Qt
@@ -116,11 +117,16 @@
 - Atmel RZUSBstick - Discontinued product. Lucky if you have one! - Tool for development, debugging and demonstration of a wide range of low power wireless applications including IEEE 802.15.4, 6LoWPAN, and ZigBee networks. Killerbee compatible.
 - Freakduino - Low Cost Battery Operated Wireless Arduino Board that can be turned into a IEEE 802.15.4 protocol sniffer.
 
+### Common Telemetry Radios
+- RFD900X / RFD868X
+- 3DR SiK Radio
+- mRo SiK Radios
+- Holybro Sik Radios
+- [Microhard Telemetry Radios](https://docs.px4.io/main/en/telemetry/microhard_serial.html) - 
+- [ExpressLRS](https://www.expresslrs.org/) - Open-source RC link that now supports bidirectional MAVLink passthrough with sub-10 ms latency—favoured by FPV pilots and DIY UAVs.
+- TBS Crossfire
+
 ## 📶 Wi-Fi Communications
-- [WFB-ng](https://github.com/svpcom/wfb-ng) - Low‑latency UDP Wi‑Fi broadcast for FPV drones.
-- [OpenIPC](https://openipc.org/) - Open firmware turning IP cameras into low‑cost FPV links.
-- [RubyFPV](https://rubyfpv.com/) - Cross‑platform digital FPV stack for Wi‑Fi dongles.
-- [RunCam WifiLink](https://shop.runcam.com/runcam-wifilink-based-on-openipc/) - 5.8 GHz Wi‑Fi FPV adapter with open protocol docs.
 
 ### Wi-Fi Detection & Infiltration Tools
 - [Aircrack-ng](https://aircrack-ng.org) - Deauth and WPA cracking toolkit.
@@ -128,13 +134,17 @@
 - [WifiPhisher](https://github.com/wifiphisher/wifiphisher) - Automated Evil Twin to phish Drone app creds.
 - [DangerDrone (Bishop Fox)](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration-testing quadcopter platform announced at Black Hat 2016.
 
+### Common Wi-Fi Protocols & Equipment
+- [WFB-ng](https://github.com/svpcom/wfb-ng) - Low‑latency UDP Wi‑Fi broadcast for FPV drones.
+- [OpenIPC](https://openipc.org/) - Open firmware turning IP cameras into low‑cost FPV links.
+- [RubyFPV](https://rubyfpv.com/) - Cross‑platform digital FPV stack for Wi‑Fi dongles.
+- [RunCam WifiLink](https://shop.runcam.com/runcam-wifilink-based-on-openipc/) - 5.8 GHz Wi‑Fi FPV adapter with open protocol docs.
+
 ## 📺 FPV & Payloads
 
 ### Video Eavesdropping
 
-## 📡 Cellular & Satelitte BVLOS
-- [CUAV SR 4/5G Link](https://doc.cuav.net/link/lte-link/en/) - LTE LINK series communication link is a UAV link, independently supported by CUAV
-- [Iridium RockBlock](https://docs.px4.io/main/en/advanced_features/satcom_roadblock.html) - Satellite Communications Module
+## 📡 BVLOS Communications
 
 ### Cellular Analysis & Tampering Tools
 - WASP (Wireless Aerial Surveillance Platform)
@@ -155,6 +165,11 @@
 - OsmocomBB - Free firmware for mobile phone baseband processors
 - Modmobmap - Mobile network mapping
 - Modmobjam - Mobile jamming research
+
+### Common BVLOS Equipment
+- [CUAV SR 4/5G Link](https://doc.cuav.net/link/lte-link/en/) - LTE LINK series communication link is a UAV link, independently supported by CUAV
+- [Iridium RockBlock](https://docs.px4.io/main/en/advanced_features/satcom_roadblock.html) - Satellite Communications Module
+- [Cloud Walker](https://www.cloudwalkerfpv.com/) - Optical Fiber Digital Communication Module
 
 ## 🤖 Protocols & Middleware Tools
 - [MAVLink](https://mavlink.io/en/)
@@ -246,7 +261,7 @@
 # 🏢 Vendor-Specific Research
 
 ## DJI
-- 
+- [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity)
 - Drone Hacks
 - No Limit Drones
 
@@ -264,9 +279,10 @@
 
 # 📚 Research Papers & Blogs
 - [Vulnerability Analysis of the MAVLink Protocol for Command and Control of Unmanned Aircraft](https://apps.dtic.mil/sti/citations/ADA598977)
-- [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file) - JTech Hack-A-Drone walkthrough
+- [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file)
 - [How to Set Up A Drone Vulnerability Testing Lab](https://medium.com/@swalters/how-to-set-up-a-drone-vulnerability-testing-lab-db8f7c762663)
-
+- [GPS Jamming Techniques for UAVs using Low-Cost SDR Platforms](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms)
+- [Unmanned Aircraft Capture and Control via GPS Spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf)
 
 # 🔍 OSINT & Intelligence
 - [DJI Hardware Schematics](https://github.com/o-gs/dji-hardware-schematics)
