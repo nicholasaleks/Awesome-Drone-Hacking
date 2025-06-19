@@ -1,4 +1,4 @@
-# Awesome Drone Hacking [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Drone Hacking [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
   <a href="https://x.com/intent/tweet?text=Awesome%20Drone%20Hacking%20-%20A%20list%20of%20awesome%20drone%20hacking%20tools%20and%20resources.%0Ahttps%3A%2F%2Fgithub.com%2Fnicholasaleks%2FAwesome-Drone-Hacking&hashtags=awesomelists,drone,hacking,cybersecurity,infosec" target="_blank">
@@ -32,37 +32,59 @@
 
 # 📚 Table of Contents
 
-- [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops) 
-- [🎤 Conference Talks & Videos](#-conference-talks--videos)
-- [🧰 Attack Surface & Tools](#-attack-surface--tools)
-  - [💿 Real-Time Operating Systems](#-real-time-operating-systems)
-  - [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
-  - [📻 Radio & SiK Telemetry](#-radio--sik-telemetry)
-  - [📶 Wi-Fi Communications](#-wi-fi-communications)
-  - [📺 FPV & Payloads](#-fpv--payloads)
-  - [📡 BVLOS Cellular & Satelitte](#-bvlos-cellular--satelitte)
-  - [🤖 ROS & MAVLink](#-ros--mavlink)
-  - [💽 Autopilot Firmware](#-autopilot-firmware)
-  - [🖥️ Companion Computers](#-companion-computers)
-  - [🛫 Ground Control Stations](#-ground-control-stations)
-  - [📱 Mobile GCS Apps](#-mobile-gcs-apps)
-  - [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
-- [🏢 Vendor-Specific Research](#-vendor-specific-research)
-- [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
-- [🔍 OSINT & Intelligence](#-osint--intelligence)
-- [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
-- [🎓 Training & Education](#-training--education)
-- [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
-- [🗣️ Communities](#-communities)
-- [⚖️ Legal Notice](#-legal-notice)
+<!-- toc -->
 
-# 🔬 Drone Hacking Labs, CTFs & Workshops
+  * [🔬 Drone Hacking Labs, CTFs & Workshops](#%F0%9F%94%AC-drone-hacking-labs-ctfs--workshops)
+  * [🎤 Conference Talks & Videos](#%F0%9F%8E%A4-conference-talks--videos)
+  * [💿 Real-Time Operating Systems](#%F0%9F%92%BF-real-time-operating-systems)
+  * [🔌 Flight Controller & Embedded Systems](#%F0%9F%94%8C-flight-controller--embedded-systems)
+    + [Embedding Hacking Tools](#embedding-hacking-tools)
+    + [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
+  * [📻 Radio & Telemetry](#%F0%9F%93%BB-radio--telemetry)
+    + [Remote Identification Discovery & Spoofing Tools](#remote-identification-discovery--spoofing-tools)
+    + [Telemetry Detection & Eavesdropping Tools](#telemetry-detection--eavesdropping-tools)
+  * [Misc RF Tools](#misc-rf-tools)
+    + [Common Telemetry Radios](#common-telemetry-radios)
+  * [📶 Wi-Fi Communications](#%F0%9F%93%B6-wi-fi-communications)
+    + [Wi-Fi Detection & Infiltration Tools](#wi-fi-detection--infiltration-tools)
+    + [Common Wi-Fi Protocols & Equipment](#common-wi-fi-protocols--equipment)
+  * [📺 FPV & Payloads](#%F0%9F%93%BA-fpv--payloads)
+    + [Video Eavesdropping](#video-eavesdropping)
+  * [📡 BVLOS Communications](#%F0%9F%93%A1-bvlos-communications)
+    + [Cellular Analysis & Tampering Tools](#cellular-analysis--tampering-tools)
+    + [Common BVLOS Equipment](#common-bvlos-equipment)
+  * [🤖 Protocols & Middleware Tools](#%F0%9F%A4%96-protocols--middleware-tools)
+    + [Protocol Analysis & Tampering](#protocol-analysis--tampering)
+  * [💽 Autopilot Firmware](#%F0%9F%92%BD-autopilot-firmware)
+    + [Firmware Analysis](#firmware-analysis)
+    + [Firmware Extraction](#firmware-extraction)
+    + [Firmware Modification](#firmware-modification)
+  * [🧠 Companion Computers](#%F0%9F%A7%A0-companion-computers)
+  * [🛫 Ground Control Stations](#%F0%9F%9B%AB-ground-control-stations)
+  * [📱 Mobile GCS Apps](#%F0%9F%93%B1-mobile-gcs-apps)
+  * [🧠 Artifical Intelligence Libraries](#%F0%9F%A7%A0-artifical-intelligence-libraries)
+- [🏢 Vendor-Specific Research](#%F0%9F%8F%A2-vendor-specific-research)
+  * [DJI](#dji)
+  * [Parrot](#parrot)
+  * [Misc](#misc)
+- [📚 Research Papers & Blog Articles](#%F0%9F%93%9A-research-papers--blog-articles)
+- [🔍 OSINT & Intelligence](#%F0%9F%94%8D-osint--intelligence)
+- [💥 Exploits, CVEs & Vulnerabilities](#%F0%9F%92%A5-exploits-cves--vulnerabilities)
+- [📣 Vulnerability Disclosure Programs](#%F0%9F%93%A3-vulnerability-disclosure-programs)
+- [🎓 Training & Education](#%F0%9F%8E%93-training--education)
+- [🗣️ Communities](#%F0%9F%97%A3%EF%B8%8F-communities)
+- [Additional Resources](#additional-resources)
+- [⚖️ Legal Notice](#%E2%9A%96%EF%B8%8F-legal-notice)
+
+<!-- tocstop -->
+
+## 🔬 Drone Hacking Labs, CTFs & Workshops
 - [Damn Vulnerable Drone (DVD)](https://github.com/nicholasaleks/Damn-Vulnerable-Drone) - Docker-based virtual drone hacking simulator
 - [Hack Our Drone Workshop](https://dronewolf.darkwolf.io/workshop) - Dark Wolf Hack Our Drone Workshop
 - [Drone Wars, BloomCon](https://www.commonwealthu.edu/offices-directory/mathematics-computer-science-and-digital-forensics/drone-wars-competition) - Collegiate arena where teams hijack Wi‑Fi drones and race them through obstacles.
 - [Hack The Drone](http://hackthedrone.org/eng/index.php) - International Drone Hacking Competition, Korea Drone Security Association
 
-# 🎤 Conference Talks & Videos
+## 🎤 Conference Talks & Videos
 - [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Felix Domke, cccamp23
 - [Debugging Microcontrollers](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Niklas Hauser, ccamp23
 - [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, Youtube
@@ -80,8 +102,6 @@
 - [Practical Aerial Hacking & Surveillance](https://www.youtube.com/watch?v=knrvrR-B1ZI) - Glenn Wilkinson, DEF CON 22, 2015
 - [SkyJack - autonomous drone hacking](https://www.youtube.com/watch?v=EHKV01YQX_w) - Samy Kamkar, Youtube, 2013
 - [Icarus - Hacking and hijacking DSMx drones, RC devices](https://www.youtube.com/watch?v=abl6oOxLRXs) - Jonathan Andersson, PACSEC, 2016 
-
-# 🧰 Attack Surface & Tools
 
 ## 💿 Real-Time Operating Systems
 - [NuttX](https://nuttx.apache.org/)
@@ -127,16 +147,16 @@
 - [SDR# (SDRSharp)](https://airspy.com/download/) - Airspy is a popular, affordable SDR (software defined radio
 - [UberTooth One](https://github.com/greatscottgadgets/ubertooth) - Open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation.
 - [Bluefruit LE Sniffer](https://www.adafruit.com/product/2269) - Easy to use Bluetooth Low Energy sniffer.
-- DragonOS: Ubuntu-based SDR distribution with preinstalled cellular tools
-- RTL-SDR - Cheapest SDR for beginners. It is a computer based radio scanner for receiving live radio signals frequencies from 500 kHz up to 1.75 GHz.
+- [DragonOS](https://cemaxecuter.com/): Ubuntu-based SDR distribution with preinstalled cellular tools
+- [RTL-SDR](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) - Cheapest SDR for beginners. It is a computer based radio scanner for receiving live radio signals frequencies from 500 kHz up to 1.75 GHz.
 - [HackRF One](https://github.com/greatscottgadgets/hackrf) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz (half-duplex).
-- YardStick One - Half-duplex sub-1 GHz wireless transceiver.
-- LimeSDR - Software Defined Radio peripheral capable of transmission or reception of radio signals from 100 KHz to 3.8 GHz (full-duplex).
-- BladeRF 2.0 - Software Defined Radio peripheral capable of transmission or reception of radio signals from 47 MHz to 6 GHz (full-duplex).
-- USRP B Series - Software Defined Radio peripheral capable of transmission or reception of radio signals from 70 MHz to 6 GHz (full-duplex).
-- ApiMote - ZigBee security research hardware for learning about and evaluating the security of IEEE 802.15.4/ZigBee systems. Killerbee compatible.
+- [YardStick One](https://greatscottgadgets.com/yardstickone/) - Half-duplex sub-1 GHz wireless transceiver.
+- [LimeSDR](https://www.crowdsupply.com/lime-micro/limesdr) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 100 KHz to 3.8 GHz (full-duplex).
+- [BladeRF 2.0](https://www.nuand.com/bladerf-2-0-micro/) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 47 MHz to 6 GHz (full-duplex).
+- [USRP B Series](https://www.ettus.com/product-categories/usrp-bus-series/) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 70 MHz to 6 GHz (full-duplex).
+- [ApiMote](https://apimote.com/) - ZigBee security research hardware for learning about and evaluating the security of IEEE 802.15.4/ZigBee systems. Killerbee compatible.
 - [Killerbee](https://github.com/riverloopsec/killerbee) - Framework for Testing & Auditing ZigBee and IEEE 802.15.4 Networks.
-- Atmel RZUSBstick - Discontinued product. Lucky if you have one! - Tool for development, debugging and demonstration of a wide range of low power wireless applications including IEEE 802.15.4, 6LoWPAN, and ZigBee networks. Killerbee compatible.
+- [zigdiggity](https://github.com/BishopFox/zigdiggity) - A ZigBee hacking toolkit by Bishop Fox
 - Freakduino - Low Cost Battery Operated Wireless Arduino Board that can be turned into a IEEE 802.15.4 protocol sniffer.
 
 ### Common Telemetry Radios
