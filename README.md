@@ -1,15 +1,11 @@
 # Awesome Drone Hacking [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<!-- markdownlint-disable MD033 -->
 <p align="center">
-  <a
-    href="https://x.com/intent/tweet?text=Awesome%20Drone%20Hacking..."
-    target="_blank">
-    <img
-      src="https://img.shields.io/badge/Tweet--lightgrey?logo=x&style=social"
-      alt="Tweet"
-      height="20" />
+  <a href="https://x.com/intent/tweet?text=Awesome%20Drone%20Hacking%20-%20A%20list%20of%20awesome%20drone%20hacking%20tools%20and%20resources.%0Ahttps%3A%2F%2Fgithub.com%2Fnicholasaleks%2FAwesome-Drone-Hacking&hashtags=awesomelists,drone,hacking,cybersecurity,infosec" target="_blank">
+    <img src="https://img.shields.io/badge/Tweet--lightgrey?logo=x&style=social" alt="Tweet" height="20"/>
   </a>
-  <!-- markdownlint-disable MD033 -->
+
   <img alt="Deadlinks Checked" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/deadlinks.yml/badge.svg">
   <img alt="Awesome Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/awesome-lint.yml/badge.svg">
   <img alt="Markdown Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/markdownlint.yml/badge.svg">
@@ -25,10 +21,9 @@
   <a href="https://github.com/nicholasaleks/Awesome-Drone-Hacking/fork">
     <img src="https://img.shields.io/github/forks/nicholasaleks/Awesome-Drone-Hacking.svg?style=social" alt="Forks"/>
   </a>
-  <!-- markdownlint-enable MD033 -->
 </p>
 
-<!-- markdownlint-disable MD033 -->
+
 <p align="center">
   <strong>A list of awesome drone hacking tools & resources.</strong><br/>
 
