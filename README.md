@@ -186,7 +186,7 @@
 * [Aircrack-ng](https://aircrack-ng.org) - Deauth and WPA cracking toolkit.
 * [Bettercap](https://github.com/bettercap/bettercap) - MITM framework to hijack drone app traffic.
 * [WifiPhisher](https://github.com/wifiphisher/wifiphisher) - Automated Evil Twin to phish Drone app creds.
-* [DangerDrone (Bishop Fox)](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration testing quadcopter platform announced at Black Hat 2016.
+* [DangerDrone](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration testing quadcopter platform announced at Black Hat 2016.
 * [WASP](https://www.suasnews.com/2010/08/wi-fi-aerial-surveillance-platform-wasp/) - Wireless Aerial Surveillance Platform.
 * [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file) - A Java-based project allowing control of Wi‑Fi drones (e.g. Cheerson CX‑10) via app or keyboard, demonstrating remote command capabilities.
 
@@ -282,7 +282,7 @@
 * [MAVProxy](https://github.com/ArduPilot/MAVProxy) - CLI-based GCS Software.
 
 ## 📱 Mobile GCS Apps
-* [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all-in-one mobile application hacking.
+* [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all in one mobile application hacking.
 * [ADB Toolkit](https://github.com/ASHWIN990/ADB-Toolkit) - ADB-Toolkit V2 for easy ADB tricks with many perks in all one.
 * [Androguard](https://github.com/androguard/androguard) – Reverse engineering and pentesting for Android applications.
 * [Apktool](https://github.com/iBotPeaches/Apktool) – A tool for reverse engineering Android apk files.
@@ -337,7 +337,7 @@
 * [ROS](https://ros.org/reps/rep-2006.html) - ROS Vulnerability Disclosure Policy.
 * [DroneDeploy](https://help.dronedeploy.com/hc/en-us/articles/1500004862001-Vulnerability-Reporting-Policy) - DroneDeploy Vulnerability Reporting Policy.
 * [Zipline](https://www.zipline.com/zipline-vulnerability-disclosure-policy) - Zipline Vulnerability Disclosure Policy.
-* [IRIS Automation / uAvioni](https://www.irisonboard.com/responsible-disclosure/) - IRIS Automation / uAvioni Vulnerability Disclosure
+* [IRIS Automation / uAvioni](https://www.irisonboard.com/responsible-disclosure/) - IRIS Automation / uAvioni Vulnerability Disclosure.
 * [Ameta](https://ametasmart.com/pages/ameta-vulnerability-disclosure-policy) - Ameta Vulnerability Disclosure Policy.
 * [Ouster](https://ouster.com/responsible-disclosure-policy) - Ouster Responsible Disclosure Policy.
 
@@ -348,8 +348,6 @@
 ## 🗣️ Communities
 * [Dronecode foundation](https://dronecode.org/) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
 * [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
-* [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities and assurance.
-* [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪 Events, local communities and assurance.
 
 ## Additional Resources
 * [Awesome-Flying-FPV](https://github.com/Matthias84/awesome-flying-fpv) - Awesome Flying FPV List.
