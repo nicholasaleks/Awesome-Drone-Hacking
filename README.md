@@ -1,3 +1,4 @@
+<!--lint disable awesome-toc-->
 # Awesome Drone Hacking [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <!-- markdownlint-disable MD033 -->
@@ -39,48 +40,49 @@
 ---
 
 ## 📚 Table of Contents
-
-- [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
-- [🎤 Conference Talks & Videos](#-conference-talks--videos)
-- [💿 Real-Time Operating Systems](#-real-time-operating-systems)
-- [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
-  - [Embedding Hacking Tools](#embedding-hacking-tools)
-  - [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
-- [📻 Radio & Telemetry](#-radio--telemetry)
-  - [Remote Identification Discovery & Spoofing Tools](#remote-identification-discovery--spoofing-tools)
-  - [Telemetry Detection & Eavesdropping Tools](#telemetry-detection--eavesdropping-tools)
-- [Misc RF Tools](#misc-rf-tools)
-  - [Common Telemetry Radios](#common-telemetry-radios)
-- [📶 Wi-Fi Communications](#-wi-fi-communications)
-  - [Wi-Fi Detection & Infiltration Tools](#wi-fi-detection--infiltration-tools)
-  - [Common Wi-Fi Protocols & Equipment](#common-wi-fi-protocols--equipment)
-- [📺 FPV & Payloads](#-fpv--payloads)
-  - [Video Eavesdropping](#video-eavesdropping)
-- [📡 BVLOS Communications](#-bvlos-communications)
-  - [Cellular Analysis & Tampering Tools](#cellular-analysis--tampering-tools)
-  - [Common BVLOS Equipment](#common-bvlos-equipment)
-- [🤖 Protocols & Middleware Tools](#-protocols--middleware-tools)
-  - [Protocol Analysis & Tampering](#protocol-analysis--tampering)
-- [💽 Autopilot Firmware](#-autopilot-firmware)
-  - [Firmware Analysis](#firmware-analysis)
-  - [Firmware Extraction](#firmware-extraction)
-  - [Firmware Modification](#firmware-modification)
-- [🧠 Companion Computers](#-companion-computers)
-- [🛫 Ground Control Stations](#-ground-control-stations)
-- [📱 Mobile GCS Apps](#-mobile-gcs-apps)
-- [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
-- [🏢 Vendor-Specific Research](#-vendor-specific-research)
-  - [DJI](#dji)
-  - [Parrot](#parrot)
-  - [Misc](#misc)
-- [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
-- [🔍 OSINT & Intelligence](#-osint--intelligence)
-- [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
-- [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
-- [🎓 Training & Education](#-training--education)
-- [🗣️ Communities](#-communities)
-- [Additional Resources](#additional-resources)
-- [⚖️ Legal Notice](#-legal-notice)
+<!--lint disable awesome-list-item-->
+* [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
+* [🎤 Conference Talks & Videos](#-conference-talks--videos)
+* [💿 Real-Time Operating Systems](#-real-time-operating-systems)
+* [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
+  * [Embedding Hacking Tools](#embedding-hacking-tools)
+  * [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
+* [📻 Radio & Telemetry](#-radio--telemetry)
+  * [Remote Identification Discovery & Spoofing Tools](#remote-identification-discovery--spoofing-tools)
+  * [Telemetry Detection & Eavesdropping Tools](#telemetry-detection--eavesdropping-tools)
+* [Misc RF Tools](#misc-rf-tools)
+  * [Common Telemetry Radios](#common-telemetry-radios)
+* [📶 Wi-Fi Communications](#-wi-fi-communications)
+  * [Wi-Fi Detection & Infiltration Tools](#wi-fi-detection--infiltration-tools)
+  * [Common Wi-Fi Protocols & Equipment](#common-wi-fi-protocols--equipment)
+* [📺 FPV & Payloads](#-fpv--payloads)
+  * [Video Eavesdropping](#video-eavesdropping)
+* [📡 BVLOS Communications](#-bvlos-communications)
+  * [Cellular Analysis & Tampering Tools](#cellular-analysis--tampering-tools)
+  * [Common BVLOS Equipment](#common-bvlos-equipment)
+* [🤖 Protocols & Middleware Tools](#-protocols--middleware-tools)
+  * [Protocol Analysis & Tampering](#protocol-analysis--tampering)
+* [💽 Autopilot Firmware](#-autopilot-firmware)
+  * [Firmware Analysis](#firmware-analysis)
+  * [Firmware Extraction](#firmware-extraction)
+  * [Firmware Modification](#firmware-modification)
+* [🧠 Companion Computers](#-companion-computers)
+* [🛫 Ground Control Stations](#-ground-control-stations)
+* [📱 Mobile GCS Apps](#-mobile-gcs-apps)
+* [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
+* [🏢 Vendor-Specific Research](#-vendor-specific-research)
+  * [DJI](#dji)
+  * [Parrot](#parrot)
+  * [Misc](#misc)
+* [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
+* [🔍 OSINT & Intelligence](#-osint--intelligence)
+* [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
+* [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
+* [🎓 Training & Education](#-training--education)
+* [🗣️ Communities](#-communities)
+* [Additional Resources](#additional-resources)
+* [⚖️ Legal Notice](#-legal-notice)
+<!--lint enable awesome-list-item-->
 
 ## 🔬 Drone Hacking Labs, CTFs & Workshops
 * [Damn Vulnerable Drone (DVD)](https://github.com/nicholasaleks/Damn-Vulnerable-Drone) - Docker-based virtual drone hacking simulator.
@@ -193,7 +195,7 @@
 * [Aircrack-ng](https://aircrack-ng.org) - Deauth and WPA cracking toolkit.
 * [Bettercap](https://github.com/bettercap/bettercap) - MITM framework to hijack drone app traffic.
 * [WifiPhisher](https://github.com/wifiphisher/wifiphisher) - Automated Evil Twin to phish Drone app creds.
-* [DangerDrone](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration testing quadcopter platform announced at Black Hat 2016.
+* [DangerDrone](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) - A DIY penetration testing quadcopter platform announced at Black Hat 2016.
 * [WASP](https://www.suasnews.com/2010/08/wi-fi-aerial-surveillance-platform-wasp/) - Wireless Aerial Surveillance Platform.
 * [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file) - A Java-based project allowing control of Wi‑Fi drones (e.g. Cheerson CX‑10) via app or keyboard, demonstrating remote command capabilities.
 
@@ -291,8 +293,8 @@
 ## 📱 Mobile GCS Apps
 * [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all in one mobile application hacking.
 * [ADB Toolkit](https://github.com/ASHWIN990/ADB-Toolkit) - ADB-Toolkit V2 for easy ADB tricks with many perks in all one.
-* [Androguard](https://github.com/androguard/androguard) – Reverse engineering and pentesting for Android applications.
-* [Apktool](https://github.com/iBotPeaches/Apktool) – A tool for reverse engineering Android apk files.
+* [Androguard](https://github.com/androguard/androguard) - Reverse engineering and pentesting for Android applications.
+* [Apktool](https://github.com/iBotPeaches/Apktool) - A tool for reverse engineering Android apk files.
 * [Dex2Jar](https://github.com/pxb1988/dex2jar) - Tools to work with android .dex and java .class files.
 * [Enjarify](https://github.com/Storyyeller/enjarify) - Tool for translating Dalvik bytecode to equivalent Java bytecode. This allows Java analysis tools to analyze Android applications.
 
