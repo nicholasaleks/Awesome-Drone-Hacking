@@ -95,7 +95,7 @@
 ## 🎤 Conference Talks & Videos
 * [WTF WJI, UAV CTF?](https://ftp.fau.de/cdn.media.ccc.de/events/camp2023/h264-hd/camp2023-57063-eng-WTF_DJI_UAV_CTF_hd.mp4) - Felix Domke, cccamp23.
 * [Debugging Microcontrollers](https://media.ccc.de/v/camp2023-57321-debugging_microcontrollers) - Niklas Hauser, ccamp23.
-* [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - cemaxecuter, YouTube.
+* [Demodulating 5GHz analog drone video](https://www.youtube.com/watch?app=desktop&v=rl8ACNnjPFA) - Cemaxecuter, YouTube.
 * [Game of Drones](https://www.slideshare.net/slideshow/def-con-25-2017-game-of-drones-brown-latimer-29july2017-slidespdf/250332791) - Bishopfox Dangerdrone.
 * [Parrot Drones Hijacking](https://www.youtube.com/watch?v=66z-aXy_1Yo) - RSA2018 Video, Pedro Cabrera, March 2018 (Slides).
 * [A Drone Tale, All your drones are belong to us](http://youtube.com/watch?v=aU4ULr3Lwt8) - Paolo Stagno, Hacktivity.
@@ -132,8 +132,8 @@
 ### Common Flight Controller & Embedded System Resources
 * [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html) - 32-bit Arm Cortex MCUs.
 * [AT32](https://www.arterychip.com/en/product/AT32F425.jsp) - 32-bit Cortex-M4 microcontroller MUCs.
-* [Pixhawk](https://pixhawk.org/) - Open source hardware flight controller
-* [Cube](https://www.cubepilot.com/#/home) - Modular flight controller hardware
+* [Pixhawk](https://pixhawk.org/) - Open source hardware flight controller.
+* [Cube](https://www.cubepilot.com/#/home) - Modular flight controller hardware.
 * [DJI A3](https://www.dji.com/ca/a3) - A commercial-grade flight controller offering triple-redundant IMUs and advanced fail-safes for industrial multirotors.
 * [DJI N3](https://www.dji.com/ca/n3) - A flight controller designed for professional aerial cinematography, optimized for integration with the DJI Inspire 2 and Lightbridge 2.
 * [CUAV X7 & V5+](https://ardupilot.org/copter/docs/common-cuav-x7-family-overview.html) - High-performance ArduPilot flight controllers with rich I/O and robust sensor redundancy.
@@ -160,7 +160,7 @@
 * [SDR# (SDRSharp)](https://airspy.com/download/) - Airspy is a popular, affordable SDR (software defined radio.
 * [UberTooth One](https://github.com/greatscottgadgets/ubertooth) - Open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation.
 * [Bluefruit LE Sniffer](https://www.adafruit.com/product/2269) - Easy to use Bluetooth Low Energy sniffer.
-* [DragonOS](https://cemaxecuter.com/): Ubuntu-based SDR distribution with preinstalled cellular tools.
+* [DragonOS](https://cemaxecuter.com/) - Ubuntu-based SDR distribution with preinstalled cellular tools.
 * [RTL-SDR](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) - Cheapest SDR for beginners. It is a computer based radio scanner for receiving live radio signals frequencies from 500 kHz up to 1.75 GHz.
 * [HackRF One](https://github.com/greatscottgadgets/hackrf) - Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz (half-duplex).
 * [YardStick One](https://greatscottgadgets.com/yardstickone/) - Half-duplex sub-1 GHz wireless transceiver.
@@ -172,7 +172,7 @@
 * [zigdiggity](https://github.com/BishopFox/zigdiggity) - A ZigBee hacking toolkit by Bishop Fox.
 
 ### Common Control & Telemetry Radios
-* [RFD900X / RFD868X](https://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.2.pdf) - Long-range radio data modem operating in the 902-928MHzor 865-870MHz frequency band
+* [RFD900X / RFD868X](https://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.2.pdf) - Long-range radio data modem operating in the 902-928MHzor 865-870MHz frequency band.
 * [3DR SiK Radio](https://store.3dr.com/3dr-sik-air-telemetry-radio-kit/) - SIK Air Telemetry Radio kit.
 * [mRo SiK Radios](https://mrobotics.io/docs/mro-sik-telemetry-radio-v2/) - mRo SiK Telemetry Radio V2.
 * [Holybro Sik Radios](https://holybro.com/products/sik-telemetry-radio-v3?srsltid=AfmBOorDhmwntjJAQDArI1vKzOLlMTaVHsFBltXve9pSeBN4d9LgGvDA) - SiK Telemetry Radio V3.
@@ -186,7 +186,7 @@
 * [Aircrack-ng](https://aircrack-ng.org) - Deauth and WPA cracking toolkit.
 * [Bettercap](https://github.com/bettercap/bettercap) - MITM framework to hijack drone app traffic.
 * [WifiPhisher](https://github.com/wifiphisher/wifiphisher) - Automated Evil Twin to phish Drone app creds.
-* [DangerDrone (Bishop Fox)](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration-testing quadcopter platform announced at Black Hat 2016.
+* [DangerDrone (Bishop Fox)](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration testing quadcopter platform announced at Black Hat 2016.
 * [WASP](https://www.suasnews.com/2010/08/wi-fi-aerial-surveillance-platform-wasp/) - Wireless Aerial Surveillance Platform.
 * [Hack-a-drone](https://github.com/Ordina-JTech/hack-a-drone?tab=readme-ov-file) - A Java-based project allowing control of Wi‑Fi drones (e.g. Cheerson CX‑10) via app or keyboard, demonstrating remote command capabilities.
 
@@ -226,8 +226,8 @@
 * [Iridium RockBlock](https://docs.px4.io/main/en/advanced_features/satcom_roadblock.html) - Satellite Communications Module.
 * [Cloud Walker](https://www.cloudwalkerfpv.com/) - Optical Fiber Digital Communication Module.
 * [OpenBTS](https://github.com/PentHertz/OpenBTS) - GSM+GPRS Radio Access Network Node reloaded for 2024-2025 for newest UHD drivers and supporting Ubuntu 22.04 & 24.04.
-* [LimeNET CrowdCell](https://limemicro.com/): Network-in-a-box solution with integrated LimeSDR for small cell deployments.
-* [Magma Core Network](https://github.com/magma): Meta's distributed packet core now under Linux Foundation.
+* [LimeNET CrowdCell](https://limemicro.com/) - Network in a box solution with integrated LimeSDR for small cell deployments.
+* [Magma Core Network](https://github.com/magma) - Meta's distributed packet core now under Linux Foundation.
 
 ## 🤖 Protocols & Middleware Tools
 * [MAVLink](https://github.com/mavlink/mavlink) - Marshalling / communication library for drones.
@@ -235,7 +235,6 @@
 * [ROS](https://www.ros.org/) - Open Source Robot Operation System (ROS).
 * [MAVROS](https://github.com/mavlink/mavros) - MAVLink to ROS gateway with proxy for Ground Control Station.
 * [MAVLink Router](https://github.com/mavlink-router/mavlink-router) - Route mavlink packets between endpoints.
-* [MAVProxy](https://github.com/ArduPilot/MAVProxy) - CLI-based GCS Software.
 
 ### Protocol Analysis & Tampering
 * [MAVLink Wireshark PLugin](https://mavlink.io/en/guide/wireshark.html) - Parsing MAVLink Messages in Wireshark.
