@@ -25,9 +25,11 @@
 
 <p align="center">
   <strong>A list of awesome drone hacking tools & resources.</strong><br/>
+
   <img
    src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true"
    alt="Awesome Drone Hacking List Logo" />
+
   This repository covers tools, techniques, and research for hacking open-source,
   autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry
   and flight control to hardware, firmware, and communication protocols.
@@ -38,53 +40,49 @@
 
 ## 📚 Table of Contents
 
-<!-- toc -->
+- [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
+- [🎤 Conference Talks & Videos](#-conference-talks--videos)
+- [💿 Real-Time Operating Systems](#-real-time-operating-systems)
+- [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
+  - [Embedding Hacking Tools](#embedding-hacking-tools)
+  - [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
+- [📻 Radio & Telemetry](#-radio--telemetry)
+  - [Remote Identification Discovery & Spoofing Tools](#remote-identification-discovery--spoofing-tools)
+  - [Telemetry Detection & Eavesdropping Tools](#telemetry-detection--eavesdropping-tools)
+- [Misc RF Tools](#misc-rf-tools)
+  - [Common Telemetry Radios](#common-telemetry-radios)
+- [📶 Wi-Fi Communications](#-wi-fi-communications)
+  - [Wi-Fi Detection & Infiltration Tools](#wi-fi-detection--infiltration-tools)
+  - [Common Wi-Fi Protocols & Equipment](#common-wi-fi-protocols--equipment)
+- [📺 FPV & Payloads](#-fpv--payloads)
+  - [Video Eavesdropping](#video-eavesdropping)
+- [📡 BVLOS Communications](#-bvlos-communications)
+  - [Cellular Analysis & Tampering Tools](#cellular-analysis--tampering-tools)
+  - [Common BVLOS Equipment](#common-bvlos-equipment)
+- [🤖 Protocols & Middleware Tools](#-protocols--middleware-tools)
+  - [Protocol Analysis & Tampering](#protocol-analysis--tampering)
+- [💽 Autopilot Firmware](#-autopilot-firmware)
+  - [Firmware Analysis](#firmware-analysis)
+  - [Firmware Extraction](#firmware-extraction)
+  - [Firmware Modification](#firmware-modification)
+- [🧠 Companion Computers](#-companion-computers)
+- [🛫 Ground Control Stations](#-ground-control-stations)
+- [📱 Mobile GCS Apps](#-mobile-gcs-apps)
+- [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
+- [🏢 Vendor-Specific Research](#-vendor-specific-research)
+  - [DJI](#dji)
+  - [Parrot](#parrot)
+  - [Misc](#misc)
+- [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
+- [🔍 OSINT & Intelligence](#-osint--intelligence)
+- [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
+- [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
+- [🎓 Training & Education](#-training--education)
+- [🗣️ Communities](#-communities)
+- [Additional Resources](#additional-resources)
+- [⚖️ Legal Notice](#-legal-notice)
 
-* [Drone Hacking Labs, CTFs & Workshops](#drone-hacking-labs-ctfs--workshops)
-* [🎤 Conference Talks & Videos](#-conference-talks--videos)
-* [💿 Real-Time Operating Systems](#-real-time-operating-systems)
-* [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
-  * [Embedding Hacking Tools](#embedding-hacking-tools)
-  * [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
-* [📻 Radio & Telemetry](#-radio--telemetry)
-  * [Remote Identification Discovery & Spoofing Tools](#remote-identification-discovery--spoofing-tools)
-  * [Telemetry Detection & Eavesdropping Tools](#telemetry-detection--eavesdropping-tools)
-* [Misc RF Tools](#misc-rf-tools)
-  * [Common Telemetry Radios](#common-telemetry-radios)
-* [📶 Wi-Fi Communications](#-wi-fi-communications)
-  * [Wi-Fi Detection & Infiltration Tools](#wi-fi-detection--infiltration-tools)
-  * [Common Wi-Fi Protocols & Equipment](#common-wi-fi-protocols--equipment)
-* [📺 FPV & Payloads](#-fpv--payloads)
-  * [Video Eavesdropping](#video-eavesdropping)
-* [📡 BVLOS Communications](#-bvlos-communications)
-  * [Cellular Analysis & Tampering Tools](#cellular-analysis--tampering-tools)
-  * [Common BVLOS Equipment](#common-bvlos-equipment)
-* [🤖 Protocols & Middleware Tools](#-protocols--middleware-tools)
-  * [Protocol Analysis & Tampering](#protocol-analysis--tampering)
-* [💽 Autopilot Firmware](#-autopilot-firmware)
-  * [Firmware Analysis](#firmware-analysis)
-  * [Firmware Extraction](#firmware-extraction)
-  * [Firmware Modification](#firmware-modification)
-* [🧠 Companion Computers](#-companion-computers)
-* [🛫 Ground Control Stations](#-ground-control-stations)
-* [📱 Mobile GCS Apps](#-mobile-gcs-apps)
-* [🧠 Artifical Intelligence Libraries](#-artifical-intelligence-libraries)
-* [🏢 Vendor-Specific Research](#-vendor-specific-research)
-  * [DJI](#dji)
-  * [Parrot](#parrot)
-  * [Misc](#misc)
-* [📚 Research Papers & Blog Articles](#-research-papers--blog-articles)
-* [🔍 OSINT & Intelligence](#-osint--intelligence)
-* [💥 Exploits, CVEs & Vulnerabilities](#-exploits-cves--vulnerabilities)
-* [📣 Vulnerability Disclosure Programs](#-vulnerability-disclosure-programs)
-* [🎓 Training & Education](#-training--education)
-* [🗣️ Communities](#-communities)
-* [Additional Resources](#additional-resources)
-* [⚖️ Legal Notice](#-legal-notice)
-
-<!-- tocstop -->
-
-## Drone Hacking Labs, CTFs & Workshops
+## 🔬 Drone Hacking Labs, CTFs & Workshops
 * [Damn Vulnerable Drone (DVD)](https://github.com/nicholasaleks/Damn-Vulnerable-Drone) - Docker-based virtual drone hacking simulator.
 * [Hack Our Drone Workshop](https://dronewolf.darkwolf.io/workshop) - Dark Wolf Hack Our Drone Workshop.
 * [Drone Wars, BloomCon](https://www.commonwealthu.edu/offices-directory/mathematics-computer-science-and-digital-forensics/drone-wars-competition) - Collegiate arena where teams hijack Wi‑Fi drones and race them through obstacles.
