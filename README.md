@@ -112,6 +112,17 @@
 * [Icarus - Hacking and hijacking DSMx drones, RC devices](https://www.youtube.com/watch?v=abl6oOxLRXs) - Jonathan Andersson, PACSEC, 2016.
 
 ## 💿 Real-Time Operating Systems
+
+### Fuzzing & Analysis Tools
+* [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) - The target orchestration framework with focus on dynamic analysis of embedded devices' firmware.
+* [Avatar² Framework](https://github.com/avatartwo/avatar2) - Fuzzware is a project for automated, self-configuring fuzzing of firmware images.
+* [American Fuzzy Lop plus plus](https://github.com/AFLplusplus/AFLplusplus) - AFL with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!
+
+## Emulators
+* [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer.
+* [Renode](https://github.com/renode/renode) - Antmicro's open source simulation and virtual development framework for complex embedded systems.
+
+### Common RTOS
 * [NuttX](https://nuttx.apache.org/) - NuttX RTOS, used by PX4.
 * [ChibiOS](https://www.chibios.org/dokuwiki/doku.php) - ChibiOS RTOS, used by ArduPilot.
 
