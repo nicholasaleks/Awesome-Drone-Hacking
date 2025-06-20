@@ -25,11 +25,9 @@
 
 <p align="center">
   <strong>A list of awesome drone hacking tools & resources.</strong><br/>
-
   <img
    src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true"
    alt="Awesome Drone Hacking List Logo" />
-
   This repository covers tools, techniques, and research for hacking open-source,
   autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry
   and flight control to hardware, firmware, and communication protocols.
@@ -42,7 +40,7 @@
 
 <!-- toc -->
 
-* [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
+* [Drone Hacking Labs, CTFs & Workshops](#drone-hacking-labs-ctfs--workshops)
 * [🎤 Conference Talks & Videos](#-conference-talks--videos)
 * [💿 Real-Time Operating Systems](#-real-time-operating-systems)
 * [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
@@ -86,7 +84,7 @@
 
 <!-- tocstop -->
 
-## 🔬 Drone Hacking Labs, CTFs & Workshops
+## Drone Hacking Labs, CTFs & Workshops
 * [Damn Vulnerable Drone (DVD)](https://github.com/nicholasaleks/Damn-Vulnerable-Drone) - Docker-based virtual drone hacking simulator.
 * [Hack Our Drone Workshop](https://dronewolf.darkwolf.io/workshop) - Dark Wolf Hack Our Drone Workshop.
 * [Drone Wars, BloomCon](https://www.commonwealthu.edu/offices-directory/mathematics-computer-science-and-digital-forensics/drone-wars-competition) - Collegiate arena where teams hijack Wi‑Fi drones and race them through obstacles.
