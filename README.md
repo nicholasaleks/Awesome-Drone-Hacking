@@ -145,7 +145,6 @@
 ### Remote Identification Discovery & Spoofing Tools
 * [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer) - An ESP8266/NodeMCU tool that simulates up to 16 fake Remote ID–broadcasting drones around a GPS location via Wi‑Fi for Red Team testing.
 * [WiFi RID capture](https://github.com/sxjack/unix_rid_capture) - A Linux tool that listens for ASTM F3411 (Wi‑Fi/Bluetooth) Remote ID frames and logs real UAV positions in JSON for monitoring or analysis.
-* [DJI Drone ID](https://github.com/proto17/dji_droneid) - An SDR-based decoder that demodulates proprietary DJI DroneID RF bursts and allows creation of arbitrary DroneID frames using MATLAB/Octave scripts.
 * [DJI DroneID Detection](https://www.crowdsupply.com/microphase-technology/antsdr-e200/updates/dji-droneid-detection) - FPGA-based software-defined radio based on the ZYNQ and AD936x chipsets.
 
 ### Telemetry Detection & Eavesdropping Tools
@@ -232,7 +231,7 @@
 
 ## 🤖 Protocols & Middleware Tools
 * [MAVLink](https://github.com/mavlink/mavlink) - Marshalling / communication library for drones.
-* [MAVSDK]https://github.com/mavlink/MAVSDK) - API and library for MAVLink compatible systems written in C++17.
+* [MAVSDK](https://github.com/mavlink/MAVSDK) - API and library for MAVLink compatible systems written in C++17.
 * [ROS](https://www.ros.org/) - Open Source Robot Operation System (ROS).
 * [MAVROS](https://github.com/mavlink/mavros) - MAVLink to ROS gateway with proxy for Ground Control Station.
 * [MAVLink Router](https://github.com/mavlink-router/mavlink-router) - Route mavlink packets between endpoints.
@@ -286,61 +285,50 @@
 ## 📱 Mobile GCS Apps
 * [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all-in-one mobile application hacking.
 * [ADB Toolkit](https://github.com/ASHWIN990/ADB-Toolkit) - ADB-Toolkit V2 for easy ADB tricks with many perks in all one.
-* Androwarn - detect and warn the user about potential malicious behaviors developed by an Android application.
-* ApkAnalyser
-* APKInspector
-* Droid Intent Data Flow Analysis for Information Leakage
-* DroidLegacy
-* FlowDroid
-* Smali/Baksmali – apk decompilation
-* AndBug
-* Androguard – powerful, integrates well with other tools
-* Apktool – really useful for compilation/decompilation (uses smali)
-* Android Framework for Exploitation
-* Bypass signature and permission checks for IPCs
-* Android OpenDebug – make any application on the device debuggable (using cydia substrate).
-* Dex2Jar - dex to jar converter
-* Enjarify - dex to jar converter from Google
+* [Androguard](https://github.com/androguard/androguard) – Reverse engineering and pentesting for Android applications.
+* [Apktool](https://github.com/iBotPeaches/Apktool) – A tool for reverse engineering Android apk files.
+* [Dex2Jar](https://github.com/pxb1988/dex2jar) - Tools to work with android .dex and java .class files.
+* [Enjarify](https://github.com/Storyyeller/enjarify) - Tool for translating Dalvik bytecode to equivalent Java bytecode. This allows Java analysis tools to analyze Android applications.
 
 ## 🧠 Artifical Intelligence Libraries
 * [OpenCV](https://github.com/opencv/opencv) - Open Source Computer Vision Library.
 
-# 🏢 Vendor-Specific Research
+## 🏢 Vendor-Specific Research
 
-## DJI
+### DJI
 * [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity)
-* [DJI Drone ID](https://github.com/proto17/dji_droneid) - DJI DroneID RF analysis tool.
+* [DJI Drone ID](https://github.com/proto17/dji_droneid) - An SDR-based decoder that demodulates proprietary DJI DroneID RF bursts and allows creation of arbitrary DroneID frames using MATLAB/Octave scripts.
 * [Drone Hacks](https://drone-hacks.com/) - DJI Drone Hacking Tool for purchase.
 * [No Limit Drones](https://nolimitdronez.com/) - DJI Drone Hacking Tool for purchase.
 
-## Parrot
-- [SkyJack](https://github.com/samyk/skyjack) - Drone source used to autonomously seek out, hack, and wirelessly take full control over any other Parrot or 3DR drones.
-- [DroneJack](https://github.com/brospars/wic-ter-dronejack) - Dronejack is a node web-based application to take control of a Parrot drone.
-- [Maldrone](https://www.youtube.com/watch?v=5SlWdl4ZuAI) - First Backdoor for Drones.
+### Parrot
+* [SkyJack](https://github.com/samyk/skyjack) - Drone source used to autonomously seek out, hack, and wirelessly take full control over any other Parrot or 3DR drones.
+* [DroneJack](https://github.com/brospars/wic-ter-dronejack) - Dronejack is a node web-based application to take control of a Parrot drone.
+* [Maldrone](https://www.youtube.com/watch?v=5SlWdl4ZuAI) - First Backdoor for Drones.
 
-## Misc
+### Misc
 * [DroneSploit](https://github.com/dronesploit/dronesploit) - Drone pentesting framework console.
 * [Drone Duel](https://github.com/marcnewlin/drone-duel) - Code used in the Great Drone Duel of 2016.
 * [Drone-Hacking-Tool](https://github.com/HKSSY/Drone-Hacking-Tool) - Drone Hacking Tool is a GUI tool that works with a USB Wifi adapter and HackRF One for hacking drones.
 * [Snoopy](https://github.com/sensepost/Snoopy) - A distributed tracking and data interception framework.
 
 
-# 📚 Research Papers & Blog Articles
+## 📚 Research Papers & Blog Articles
 * [Vulnerability Analysis of the MAVLink Protocol for Command and Control of Unmanned Aircraft](https://apps.dtic.mil/sti/citations/ADA598977) - A DoD/AFIT technical report identifying confidentiality, integrity, and availability flaws in MAVLink C2 messages, enabling crafted attacks on UAV missions.
 * [How to Set Up A Drone Vulnerability Testing Lab](https://medium.com/@swalters/how-to-set-up-a-drone-vulnerability-testing-lab-db8f7c762663) - A Medium guide detailing a <$100 home drone security lab using toy/hobby drones and RC systems, upgradable to advanced gear like DJI and Futaba.
 * [GPS Jamming Techniques for UAVs using Low-Cost SDR Platforms](https://www.researchgate.net/publication/339824302_Effective_GPS_Jamming_Techniques_for_UAVs_Using_Low-Cost_SDR_Platforms) - A research paper showing BladeRF/GNU Radio SDR can generate effective GPS interference to disrupt UAV navigation.
 * [Unmanned Aircraft Capture and Control via GPS Spoofing](https://rnl.ae.utexas.edu/images/stories/files/papers/unmannedCapture.pdf) - A seminal study demonstrating UAV takeover by injecting deceptive GPS signals under specific conditions.
 * [Drone Detection and Tracking Using RF Identification Signals](https://www.mdpi.com/1424-8220/23/17/7650) - An MDPI study presenting a dev‑board RF system decoding Drone‑ID telemetry with detection ranges of up to ~3.7 km on various DJI models.
 
-# 🔍 OSINT & Intelligence
+## 🔍 OSINT & Intelligence
 * [DJI Hardware Schematics](https://github.com/o-gs/dji-hardware-schematics) - Community-shared KiCad schematics and PCBs for various DJI drone boards, though may contain errors and lack warranty.
 * [DJI Packet Dumps](https://github.com/o-gs/dji-packet-dumps) - Collections of DJI hardware communication logs in PCAP format, useful for protocol analysis in Wireshark.
 
-# 💥 Exploits, CVEs & Vulnerabilities
+## 💥 Exploits, CVEs & Vulnerabilities
 * [Exploit Database](https://www.exploit-db.com/) - A large, public, CVE‑compliant repo of exploits and proof‑of‑concept code for penetration testers and researchers.
 * [Robot Vulnerability Database](https://github.com/aliasrobotics/RVD) - An open archive tracking robot/ROS vulnerabilities with RVSS scoring, curated by Alias Robotics.
 
-# 📣 Vulnerability Disclosure Programs
+## 📣 Vulnerability Disclosure Programs
 * [DJI](https://security.dji.com) - Official DJI program offering $50–$30 k rewards.
 * [Parrot](https://www.parrot.com/en/newsroom/parrot-launches-its-bug-bounty-partnership-yeswehack) - Parrot runs a phased YesWeHack bug bounty program.
 * [PX4](https://github.com/PX4/PX4-Autopilot/blob/main/SECURITY.md) - PX4 Security Policy.
@@ -354,18 +342,18 @@
 * [Ameta](https://ametasmart.com/pages/ameta-vulnerability-disclosure-policy) - Ameta Vulnerability Disclosure Policy.
 * [Ouster](https://ouster.com/responsible-disclosure-policy) - Ouster Responsible Disclosure Policy.
 
-# 🎓 Training & Education
+## 🎓 Training & Education
 * [DSOC - DronSec Courses](https://training.dronesec.com/) - Master Offensive Operations & Adversary Tradecraft for Drones.
 * [DarkWolf Drone Playbook](https://dronewolf.darkwolf.io/) - Drone Hacking Playbook Developed by Dark Wolf Solutions.
 
-# 🗣️ Communities
+## 🗣️ Communities
 * [Dronecode foundation](https://dronecode.org/) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
 * [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
 * [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities and assurance.
 * [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪 Events, local communities and assurance.
 
-# Additional Resources
+## Additional Resources
 * [Awesome-Flying-FPV](https://github.com/Matthias84/awesome-flying-fpv) - Awesome Flying FPV List.
 
-# ⚖️ Legal Notice
+## ⚖️ Legal Notice
 This repository is for educational and research purposes only. Users are responsible for complying with all applicable laws and regulations. The maintainers do not endorse or encourage any illegal activities.
