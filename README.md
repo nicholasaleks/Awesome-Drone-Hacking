@@ -8,7 +8,6 @@
 
   <img alt="Deadlinks Checked" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/deadlinks.yml/badge.svg">
   <img alt="Awesome Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/awesome-lint.yml/badge.svg">
-  <img alt="Markdown Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/markdownlint.yml/badge.svg">
   <img alt="YAML Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/yamllint.yml/badge.svg">
   <img alt="Action Lint" src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/actions/workflows/actionlint.yml/badge.svg">
   
@@ -144,6 +143,8 @@
 ### Remote Identification Discovery & Spoofing Tools
 - [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
 - [WiFi RID capture](https://github.com/sxjack/unix_rid_capture)
+- [DJI Drone ID](https://github.com/proto17/dji_droneid) - DJI DroneID RF Analysis
+- [DJI DroneID Detection](https://www.crowdsupply.com/microphase-technology/antsdr-e200/updates/dji-droneid-detection) - FPGA-based software-defined radio based on the ZYNQ and AD936x chipsets
 
 ### Telemetry Detection & Eavesdropping Tools
 - [SiKW00F](https://github.com/nicholasaleks/sikw00f) - SiK Radio Detection & MAVLink Telemetry Eavesdropping Toolkit
@@ -152,6 +153,8 @@
 ## Misc RF Tools
 - [Wireshark](https://www.wireshark.org/) - Network traffic analyzer
 - [GNURadio](https://github.com/gnuradio/gnuradio) - Free and Open Software Radio Ecosystem
+- [SigDigger](https://github.com/BatchDrake/SigDigger) - Free digital signal analyzer
+- [SDRangel](https://github.com/f4exb/sdrangel) - Open-source Qt5 / OpenGL 3.0+ SDR and signal analyzer frontend to various hardware.
 - [GQRX](https://github.com/gqrx-sdr/gqrx) - Software defined radio receiver powered by GNU Radio and Qt
 - [SDR# (SDRSharp)](https://airspy.com/download/) - Airspy is a popular, affordable SDR (software defined radio
 - [UberTooth One](https://github.com/greatscottgadgets/ubertooth) - Open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation.
@@ -168,14 +171,14 @@
 - [zigdiggity](https://github.com/BishopFox/zigdiggity) - A ZigBee hacking toolkit by Bishop Fox
 - Freakduino - Low Cost Battery Operated Wireless Arduino Board that can be turned into a IEEE 802.15.4 protocol sniffer.
 
-### Common Telemetry Radios
-- RFD900X / RFD868X
-- 3DR SiK Radio
-- mRo SiK Radios
-- Holybro Sik Radios
+### Common Control & Telemetry Radios
+- [RFD900X / RFD868X](https://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.2.pdf) - Long-range radio data modem operating in the 902-928MHzor 865-870MHz frequency band
+- [3DR SiK Radio](https://store.3dr.com/3dr-sik-air-telemetry-radio-kit/) - SIK Air Telemetry Radio kit
+- [mRo SiK Radios](https://mrobotics.io/docs/mro-sik-telemetry-radio-v2/) - mRo SiK Telemetry Radio V2
+- [Holybro Sik Radios](https://holybro.com/products/sik-telemetry-radio-v3?srsltid=AfmBOorDhmwntjJAQDArI1vKzOLlMTaVHsFBltXve9pSeBN4d9LgGvDA) - SiK Telemetry Radio V3
 - [Microhard Telemetry Radios](https://docs.px4.io/main/en/telemetry/microhard_serial.html) - 
 - [ExpressLRS](https://www.expresslrs.org/) - Open-source RC link that now supports bidirectional MAVLink passthrough with sub-10 ms latency—favoured by FPV pilots and DIY UAVs.
-- TBS Crossfire
+- [TBS Crossfire](https://www.team-blacksheep.com/products/prod:crossfire_tx?srsltid=AfmBOoqZ42ooZ6riBbs-Dec_6hXpMLN2u2njFGDQ5YWaFtzroDmUrZ0r) - Team Black Sheep Crossfire TX - Long Range R/C Transmitter
 
 ## 📶 Wi-Fi Communications
 
@@ -184,6 +187,7 @@
 - [Bettercap](https://github.com/bettercap/bettercap) - MITM framework to hijack drone app traffic.
 - [WifiPhisher](https://github.com/wifiphisher/wifiphisher) - Automated Evil Twin to phish Drone app creds.
 - [DangerDrone (Bishop Fox)](https://resources.bishopfox.com/resources/tools/drones-penetration-testers/attack-tools/) – A DIY penetration-testing quadcopter platform announced at Black Hat 2016.
+- [WASP](https://www.suasnews.com/2010/08/wi-fi-aerial-surveillance-platform-wasp/) - Wireless Aerial Surveillance Platform
 
 ### Common Wi-Fi Protocols & Equipment
 - [WFB-ng](https://github.com/svpcom/wfb-ng) - Low‑latency UDP Wi‑Fi broadcast for FPV drones.
@@ -193,42 +197,44 @@
 
 ## 📺 FPV & Payloads
 
-### Video Eavesdropping
+### Video Detection & Eavesdropping
+- [FPV DETECTION](https://github.com/Payalo64/FPV_DETECTED_1.2_5.8GHZ) - Raspberry Pi Pico-based FPV Detection Tool with 1.6 km range
+- [RX5808 Pro Diversity](https://github.com/sheaivey/rx5808-pro-diversity) - DIY 5.8 GHz FPV video receiver station with antenna diversity
+- [Meshtastic Detection Node (Drone Detection)](https://www.tindie.com/products/thewolfblitz7/fpv-meshtastic-detection-node-drone-detection/) - Mesh nodes designed to detect, and alert presence of 5.8GHz FPV analog video transmissions. They alert via Meshtastic and Serial USB.
+- [TVSharp](https://github.com/linuxuser2064/TVSharper) - An analog TV decoder for the RTL-SDR (but sharper)
+
+### Video Jamming, Spoofing & Tampering
+- [HackTV](https://github.com/fsphil/hacktv) - Analogue TV transmitter for the HackRF
 
 ## 📡 BVLOS Communications
 
 ### Cellular Analysis & Tampering Tools
-- WASP (Wireless Aerial Surveillance Platform)
-- OpenBTS 2024 Reloaded: Updated for modern UHD drivers and Ubuntu 22.04/24.04 support
-- OpenAirInterface (OAI): Major 5G platform with complete 3GPP Release-15+ implementation
-- LimeNET CrowdCell: Network-in-a-box solution with integrated LimeSDR for small cell deployments
-- Amarisoft LTEENB/gNB: Professional-grade LTE/5G NR base station software
-- Magma Core Network: Meta's distributed packet core now under Linux Foundation
-- 5GBaseChecker: New tool for automated 5G baseband vulnerability detection
-- LTE-Cell-Scanner - LTE cell detection and analysis
-- gr-gsm - GSM analysis with GNU Radio
-- IMSI-Catcher Detector - Android app for detecting IMSI catchers
-- QCSuper - Capture 2G-4G traffic using Qualcomm phones
-- 5GBaseChecker - Tool for detecting vulnerabilities in 5G baseband implementations (2024)
-- FALCON LTE - Fast Analysis of LTE Control Channels for real-time analysis
-- Kalibrate - GSM base station scanner and frequency calibration tool
-- LTE Sniffer - Open-source LTE downlink/uplink eavesdropper
-- OsmocomBB - Free firmware for mobile phone baseband processors
-- Modmobmap - Mobile network mapping
-- Modmobjam - Mobile jamming research
+- [LTE-Cell-Scanner](https://github.com/Evrytania/LTE-Cell-Scanner) - LTE cell detection and analysis
+- [gr-gsm](https://github.com/ptrkrysik/gr-gsm) - GSM analysis with GNU Radio
+- [QCSuper](https://github.com/P1sec/QCSuper) - Capture 2G-4G traffic using Qualcomm phones
+- [5GBaseChecker](https://github.com/SyNSec-den/5GBaseChecker) - Tool for detecting vulnerabilities in 5G baseband implementations (2024)
+- [FALCON LTE](https://github.com/falkenber9/falcon) - Fast Analysis of LTE Control Channels for real-time analysis
+- [Kalibrate](https://github.com/scateu/kalibrate-hackrf) - GSM base station scanner and frequency calibration tool
+- [LTE Sniffer](https://github.com/SysSec-KAIST/LTESniffer) - Open-source LTE downlink/uplink eavesdropper
+- [OsmocomBB](https://github.com/korczis/osmocom-bb) - Free firmware for mobile phone baseband processors
+- [Modmobmap](https://github.com/Synacktiv-contrib/Modmobmap) - Mobile network mapping
+- [Modmobjam](https://github.com/Synacktiv-contrib/Modmobjam) - Mobile jamming research
 
 ### Common BVLOS Equipment
 - [CUAV SR 4/5G Link](https://doc.cuav.net/link/lte-link/en/) - LTE LINK series communication link is a UAV link, independently supported by CUAV
 - [Iridium RockBlock](https://docs.px4.io/main/en/advanced_features/satcom_roadblock.html) - Satellite Communications Module
 - [Cloud Walker](https://www.cloudwalkerfpv.com/) - Optical Fiber Digital Communication Module
+- [OpenBTS](https://github.com/PentHertz/OpenBTS) - GSM+GPRS Radio Access Network Node reloaded for 2024-2025 for newest UHD drivers and supporting Ubuntu 22.04 & 24.04
+- [LimeNET CrowdCell](https://limemicro.com/): Network-in-a-box solution with integrated LimeSDR for small cell deployments
+- [Magma Core Network](https://github.com/magma): Meta's distributed packet core now under Linux Foundation
 
 ## 🤖 Protocols & Middleware Tools
 - [MAVLink](https://github.com/mavlink/mavlink) - Marshalling / communication library for drones.
 - [MAVSDK]https://github.com/mavlink/MAVSDK) - API and library for MAVLink compatible systems written in C++17
-- ROS
+- [ROS](https://www.ros.org/) - Open Source Robot Operation System (ROS)
 - [MAVROS](https://github.com/mavlink/mavros) - MAVLink to ROS gateway with proxy for Ground Control Station
-- MAVLink Router
-- MAVProxy
+- [MAVLink Router](https://github.com/mavlink-router/mavlink-router) - Route mavlink packets between endpoints
+- [MAVProxy](https://github.com/ArduPilot/MAVProxy) - CLI-based GCS Software
 
 ### Protocol Analysis & Tampering
 - [MAVLink Wireshark PLugin](https://mavlink.io/en/guide/wireshark.html) - Parsing MAVLink Messages in Wireshark
@@ -301,6 +307,7 @@
 
 ## DJI
 - [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity)
+- [DJI Drone ID](https://github.com/proto17/dji_droneid) - DJI DroneID RF Analysis
 - [Drone Hacks](https://drone-hacks.com/) - DJI Drone Hacking Tool for purchase
 - [No Limit Drones](https://nolimitdronez.com/) - DJI Drone Hacking Tool for purchase
 
@@ -353,8 +360,8 @@
 # 🗣️ Communities
 - [Dronecode foundation](https://dronecode.org/) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
 - [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
-- [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities, assurance, ... .
-- [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪.
+- [Deutscher Modellflieger Verband e.V.](https://www.dmfv.aero/) - 🇩🇪 Events, local communities and assurance
+- [Deutscher Aero Club e.V.](https://www.daec.de/) - 🇩🇪
 
 # Additional Resources
 - [Awesome-Flying-FPV](https://github.com/Matthias84/awesome-flying-fpv)
