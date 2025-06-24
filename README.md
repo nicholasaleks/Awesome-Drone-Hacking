@@ -35,6 +35,12 @@
   autonomous, FPV (First-Person View), and proprietary drone systems—from telemetry
   and flight control to hardware, firmware, and communication protocols.
 </p>
+
+### Legend
+
+* 🌟: Most Awesome
+* 💰: Costs Money
+* 👻: Outdated / Archived
 <!-- markdownlint-enable MD033 -->
 
 ---
@@ -44,6 +50,8 @@
 * [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
 * [🎤 Conference Talks & Videos](#-conference-talks--videos)
 * [💿 Real-Time Operating Systems](#-real-time-operating-systems)
+  * [Fuzzing & Analysis Tools](#fuzzing--analysis-tools)
+  * [Emulators](#emulators)
 * [🔌 Flight Controller & Embedded Systems](#-flight-controller--embedded-systems)
   * [Embedding Hacking Tools](#embedding-hacking-tools)
   * [Common Flight Controller & Embedded System Resources](#common-flight-controller--embedded-system-resources)
@@ -118,7 +126,7 @@
 
 ## Emulators
 * [QEMU](https://www.qemu.org/) - A generic and open source machine emulator and virtualizer.
-* [Renode](https://github.com/renode/renode) - Antmicro's open source simulation and virtual development framework for complex embedded systems.
+* [Renode](https://github.com/renode/renode) - Antmicro's open source simulation and virtual development framework for complex embedded systems. Supports many [STM32](https://github.com/renode/renode/blob/master/platforms/cpus/stm32f4.repl) series chips.
 
 ### Common RTOS
 * [NuttX](https://nuttx.apache.org/) - NuttX RTOS, used by PX4.
@@ -161,7 +169,6 @@
 * [SiKening](https://github.com/MAVProxyUser/SiKening) - 3DR Radio SiKening PoC by Meatball Ninja - Brute force 3DR NetID and sync up with hopping sequence.
 
 ## Misc RF Tools
-* [Wireshark](https://www.wireshark.org/) - Network traffic analyzer.
 * [GNURadio](https://github.com/gnuradio/gnuradio) - Free and Open Software Radio Ecosystem.
 * [SigDigger](https://github.com/BatchDrake/SigDigger) - Free digital signal analyzer.
 * [SDRangel](https://github.com/f4exb/sdrangel) - Open-source Qt5 / OpenGL 3.0+ SDR and signal analyzer frontend to various hardware.
@@ -246,6 +253,7 @@
 * [MAVLink Router](https://github.com/mavlink-router/mavlink-router) - Route mavlink packets between endpoints.
 
 ### Protocol Analysis & Tampering
+* [MAVSploit](https://github.com/Rud3m/MavSploit) - Pentesting toolkit designed specifically for identifying and exploiting vulnerabilities within the MavLink communication protocol.
 * [MAVLink Wireshark PLugin](https://mavlink.io/en/guide/wireshark.html) - Parsing MAVLink Messages in Wireshark.
 * [aztarna](https://github.com/aliasrobotics/aztarna) - ROS Footprinting Tool.
 
@@ -283,7 +291,13 @@
 * [DJI FC Patcher](https://github.com/o-gs/DJI_FC_Patcher) - Custom FC Patcher and Flashing for various DJI drones.
 
 ## 🧠 Companion Computers
+
+### Companion Network Analysis
+* [Wireshark](https://www.wireshark.org/) - Network traffic analyzer.
 * [NMAP](https://nmap.org/) - Network Mapping Tool.
+
+### Companion Web Application Attacking
+* [BurpSuite](https://portswigger.net/) - Web application security testing tooling, provides automated testing & external plugins.
 
 ## 🛫 Ground Control Stations
 * [QGround Control](https://github.com/mavlink/qgroundcontrol) - Cross-platform ground control station for drones.
@@ -307,6 +321,12 @@
 * [Drone-ID Receiver for DJI OcuSync 2.0](https://github.com/RUB-SysSec/DroneSecurity)
 * [DJI Drone ID](https://github.com/proto17/dji_droneid) - An SDR-based decoder that demodulates proprietary DJI DroneID RF bursts and allows creation of arbitrary DroneID frames using MATLAB/Octave scripts.
 * [Drone Hacks](https://drone-hacks.com/) - DJI Drone Hacking Tool for purchase.
+* [dji_rev](https://github.com/fvantienen/dji_rev) - DJI Reverse Engineering Toolkit.
+* [deejaeye-Modder](https://github.com/Bin4ry/deejayeye-modder) - DJI Drone Firmware Modding Tool.
+* [pyduml](https://github.com/hdnes/pyduml) - Python based DUML "DJI Universal Markup Language" Exploit & FW upgrade/downgrade tool.
+* [RedHerring](https://github.com/MAVProxyUser/P0VsRedHerring) - FTPD directory transversal 0day.
+* [DUMLrub](https://github.com/MAVProxyUser/DUMLrub) - Ruby port of PyDUML.
+* [DUMLdore](https://github.com/jezzab/DUMLdore) - DJI Firmware Flashing Tool v3.20.
 * [No Limit Drones](https://nolimitdronez.com/) - DJI Drone Hacking Tool for purchase.
 
 ### Parrot
@@ -357,8 +377,18 @@
 ## 🗣️ Communities
 * [Dronecode foundation](https://dronecode.org/) - Home for MavLink, QGroundcontrol and PX4, part of Linux foundation.
 * [FPV Freedom Coalation](https://fpvfc.org/) - Keep drones hackabel and safe.
+* #DeejayeyeHackingClub
+
+### Who to Follow
+
+#### Medium
+* [Sander Walters](https://medium.com/@swalters)
+
+#### X/Tweeter
+* [d0tslash](https://x.com/d0tslash)
 
 ## Additional Resources
+* [Awesome-Drones](https://github.com/janesmae/awesome-drones) - A curated list of Awesome Drones resources.
 * [Awesome-Flying-FPV](https://github.com/Matthias84/awesome-flying-fpv) - Awesome Flying FPV List.
 
 ## ⚖️ Legal Notice
