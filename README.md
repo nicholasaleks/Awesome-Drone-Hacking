@@ -349,6 +349,7 @@
 * [Drone Detection and Tracking Using RF Identification Signals](https://www.mdpi.com/1424-8220/23/17/7650) - An MDPI study presenting a dev‑board RF system decoding Drone‑ID telemetry with detection ranges of up to ~3.7 km on various DJI models.
 
 ## 🔍 OSINT & Intelligence
+* [The Drone Database](https://drones.cnas.org/drones/) - Detailed information on drones from around the world. Perfect for research, analysis, and staying informed about global drone capabilities.
 * [DJI Hardware Schematics](https://github.com/o-gs/dji-hardware-schematics) - Community-shared KiCad schematics and PCBs for various DJI drone boards, though may contain errors and lack warranty.
 * [DJI Packet Dumps](https://github.com/o-gs/dji-packet-dumps) - Collections of DJI hardware communication logs in PCAP format, useful for protocol analysis in Wireshark.
 
