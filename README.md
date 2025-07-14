@@ -36,7 +36,7 @@
   and flight control to hardware, firmware, and communication protocols.
 </p>
 
-### Legend
+*Legend*
 
 * 🌟: Most Awesome
 * 💰: Costs Money
