@@ -45,7 +45,7 @@
 
 ---
 
-## 📚 Table of Contents
+## 📚 Contents
 <!--lint disable awesome-list-item-->
 * [🔬 Drone Hacking Labs, CTFs & Workshops](#-drone-hacking-labs-ctfs--workshops)
 * [🎤 Conference Talks & Videos](#-conference-talks--videos)
