@@ -26,6 +26,7 @@
 
 <p align="center">
   <strong>A list of awesome drone hacking tools & resources.</strong><br/>
+  <small><a href="README.md"><b>English</b></a> | <a href="README-ko.md">한국어</a></small><br/><br/>
 
   <img
    src="https://github.com/nicholasaleks/Awesome-Drone-Hacking/blob/main/Awesome-Drone-Hacking-Banner.png?raw=true"
