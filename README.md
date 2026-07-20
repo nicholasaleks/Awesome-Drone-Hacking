@@ -296,6 +296,7 @@
 
 ### Companion Network Analysis
 * [Wireshark](https://www.wireshark.org/) - Network traffic analyzer.
+* [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating 80+ offensive tools as an MCP host with proof of exploitation and a local privacy gateway (the LLM never sees real IPs or credentials).
 * [NMAP](https://nmap.org/) - Network Mapping Tool.
 
 ### Companion Web Application Attacking
