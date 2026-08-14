@@ -355,6 +355,7 @@
 * [The Drone Database](https://drones.cnas.org/drones/) - Detailed information on drones from around the world. Perfect for research, analysis, and staying informed about global drone capabilities.
 * [DJI Hardware Schematics](https://github.com/o-gs/dji-hardware-schematics) - Community-shared KiCad schematics and PCBs for various DJI drone boards, though may contain errors and lack warranty.
 * [DJI Packet Dumps](https://github.com/o-gs/dji-packet-dumps) - Collections of DJI hardware communication logs in PCAP format, useful for protocol analysis in Wireshark.
+* [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 ## 💥 Exploits, CVEs & Vulnerabilities
 * [Exploit Database](https://www.exploit-db.com/) - A large, public, CVE‑compliant repo of exploits and proof‑of‑concept code for penetration testers and researchers.
