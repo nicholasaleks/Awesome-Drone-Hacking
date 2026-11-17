@@ -164,6 +164,7 @@
 * [DragonSync-iOS](https://github.com/Root-Down-Digital/DragonSync-iOS) - Real-time Remote/Drone ID–compliant drone detection and monitoring on iOS/macOS.
 * [RemoteID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer) - An ESP8266/NodeMCU tool that simulates up to 16 fake Remote ID–broadcasting drones around a GPS location via Wi‑Fi for Red Team testing.
 * [WiFi RID capture](https://github.com/sxjack/unix_rid_capture) - A Linux tool that listens for ASTM F3411 (Wi‑Fi/Bluetooth) Remote ID frames and logs real UAV positions in JSON for monitoring or analysis.
+* [remoteid](https://github.com/Mattbusel/remoteid) - Rust library (no_std, builds for microcontrollers and WebAssembly) that decodes and encodes ASTM F3411 / EN 4709-002 Remote ID from Bluetooth 4/5, Wi-Fi Beacon and Wi-Fi NAN frames, checked against the opendroneid reference library.
 * [DJI DroneID Detection](https://www.crowdsupply.com/microphase-technology/antsdr-e200/updates/dji-droneid-detection) - FPGA-based software-defined radio based on the ZYNQ and AD936x chipsets.
 
 ### Telemetry Detection & Eavesdropping Tools
